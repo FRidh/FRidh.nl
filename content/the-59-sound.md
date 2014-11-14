@@ -4,5 +4,5 @@ Tags: music
 Category: Blog
 Slug: the-59-sound
 
-{% youtube bOBb13yDnzo [640] [390] %}
+{% youtube bOBb13yDnzo [640 390] %}
 

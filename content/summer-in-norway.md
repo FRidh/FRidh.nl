@@ -34,4 +34,4 @@ To end this post I have here a nice recording of the Norwegian band
 Katzenjammer, who were playing at Hultsfredsfestivalen as well, though
 this is a recording from elsewhere.
 
-{% youtube hHcklZEi1kk [640] [390] %}
+{% youtube hHcklZEi1kk [640 390] %}

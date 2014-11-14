@@ -5,6 +5,25 @@ About
 :slug: about
 :status: published
 
+=====
+Intro
+=====
+
+My name is Frederik Rietdijk and I'm a PhD student in acoustics. Some of my 
+interests are hiking, climbing and writing software. I'm especially interested 
+in how technology affects us all and how we can utilise it to become more 
+effective.
+
+As said I'm a PhD student. While I'm enrolled at Chalmers University of 
+Technology in Gothenburg, Sweden, I work in fact in Duebendorf, Switzerland, at the Swiss 
+Federal Laboratories for Materials Science and Technology, more commonly known 
+as Empa. 
+
+
+=======
+History
+=======
+
 Born in Rotterdam, and raised in Goudswaard. In Goudswaard I went to
 primary school, `De Gouwaert`_. After primary education I went to high
 school in Oud-Beijerland, `RSG de Hoefsmid`_, where I finished havo. In

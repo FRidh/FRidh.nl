@@ -42,7 +42,6 @@ nosetests.xml
 _build
 *.bak
 
-*.png
 .cache
 
 # Emacs
@@ -50,11 +49,6 @@ _build
 .\#*
 .projectile
 
-
-archived_content
 cache
-downloaded_website
+
 output
-ownCloud_backup
-
-

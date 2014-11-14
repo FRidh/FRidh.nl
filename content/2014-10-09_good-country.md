@@ -17,4 +17,4 @@ countries and he found out that the countries we like are the *good*
 countries. Good countries, what do I mean with that you might wonder.
 Well, if you want to have an answer on that I suggest watching the talk!
 
-{% youtube 1X7fZoDs9KU [640] [390] %}
+{% youtube 1X7fZoDs9KU [640 390] %}

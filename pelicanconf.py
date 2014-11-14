@@ -40,7 +40,7 @@ PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
 
-OUTPUT_PATH = "output"
+#OUTPUT_PATH = "../FRidh.github.io"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -58,12 +58,15 @@ SEARCH_BOX = True
 GITHUB_URL = "http://github.com/FRidh"
 GITHUB_USER = "FRidh"
 
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = None
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 8
 
-PLUGIN_PATHS = ['/home/freddy/Code/pelican-plugins/']
-#PLUGINS = ['liquid_tags.youtube', 'liquid_tags.notebook']
+PLUGIN_PATHS = ['pelican-plugins',]
+PLUGINS = ['liquid_tags.youtube', 'liquid_tags.notebook']
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+
+DISQUS_SITENAME = 'fridhnl'

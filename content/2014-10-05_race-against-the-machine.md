@@ -12,4 +12,4 @@ digital revolution is happening, things are changing and a lot of people
 can't keep up with it. Next up, *The Second Machine Age*, another book
 by Brynjolfsson and McAfee.
 
-{% youtube sod-eJBf9Y0 [640] [390] %}
+{% youtube sod-eJBf9Y0 [640 390] %}
