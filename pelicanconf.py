@@ -70,3 +70,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 
 DISQUS_SITENAME = 'fridhnl'
+
+NOTEBOOK_DIR = 'notebooks'
+
+EXTRA_HEADER = open('_nb_header.html').read()#.decode('utf-8')
