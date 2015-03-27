@@ -1,4 +1,4 @@
 pelican
 ghp-import
 markdown
-IPython
+ipython[all]
