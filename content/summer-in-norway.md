@@ -1,7 +1,7 @@
 Title: Summer in Norway
 Date: 2012-07-21 21:50
 Category: Blog
-Tags: acoustics, hultsfredsfestivalen, norway, sweden, work
+Tags: acoustics, norway, sweden, work
 Slug: summer-in-norway
 
 Many that know me are aware of the fact that I am spending this summer
