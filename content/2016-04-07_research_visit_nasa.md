@@ -1,5 +1,5 @@
 Title: Research visit to NASA Langley Research Center
-Date: 2016-12-07
+Date: 2016-04-07
 Tags: acoustics, sonorus, aircraft
 
 In March I was at NASA Langley Research Center in Hampton, Virginia, for a four
