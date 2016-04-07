@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FRidh's blog</title><link href="http://fridh.nl/" rel="alternate"></link><link href="http://fridh.nl/tag/music.atom.xml" rel="self"></link><id>http://fridh.nl/</id><updated>2009-12-20T16:49:00+01:00</updated><entry><title>The '59 sound</title><link href="http://fridh.nl/2009/12/20/the-59-sound/" rel="alternate"></link><published>2009-12-20T16:49:00+01:00</published><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2009-12-20:2009/12/20/the-59-sound/</id><summary type="html">&lt;p&gt;&lt;div class="videobox"&gt;
+                &lt;iframe width="640" height="390"
+                    src='https://www.youtube.com/embed/bOBb13yDnzo'
+                    frameborder='0' webkitAllowFullScreen mozallowfullscreen
+                    allowFullScreen&gt;
+                &lt;/iframe&gt;
+            &lt;/div&gt;&lt;/p&gt;</summary><category term="music"></category></entry></feed>
