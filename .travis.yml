@@ -8,7 +8,17 @@ install:
 - pip install -r requirements.txt
 script:
 - make publish
-- 'make github'
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  # https://github.com/travis-ci/travis-ci/issues/9312
+  edge:
+    branch: v1.8.47
+  on:
+    branch: master
+  local-dir: output
 env:
   global:
     secure: jiXI3CeoYh0m4e1seMGDFNF5pSSLSMxwaQGfHR6Vyh5BNfU6bXwCLL/7GFrOs8/M91BVgFHGF+jTt6ZxEd4QozEwxIhPfK63MB6vSco/OtQXyrM6iYnopOtm4TyAfI9VeSDdAje/M9B2TqO27bg5uFbhJOcoRf4+CPKHrIambWw=
