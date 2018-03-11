@@ -8,7 +8,7 @@ install:
 - pip install -r requirements.txt
 script:
 - make publish
-- 'make github 2> /dev/null'
+- 'make github'
 env:
   global:
     secure: jiXI3CeoYh0m4e1seMGDFNF5pSSLSMxwaQGfHR6Vyh5BNfU6bXwCLL/7GFrOs8/M91BVgFHGF+jTt6ZxEd4QozEwxIhPfK63MB6vSco/OtQXyrM6iYnopOtm4TyAfI9VeSDdAje/M9B2TqO27bg5uFbhJOcoRf4+CPKHrIambWw=
