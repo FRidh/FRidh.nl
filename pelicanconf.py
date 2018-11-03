@@ -55,7 +55,7 @@ DEFAULT_CATEGORY = "Blog"
 
 SEARCH_BOX = True
 
-GITHUB_URL = "http://github.com/FRidh"
+GITHUB_URL = "https://github.com/FRidh"
 GITHUB_USER = "FRidh"
 
 SUMMARY_MAX_LENGTH = None
