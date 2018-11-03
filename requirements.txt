@@ -1,4 +1,5 @@
 pelican
 ghp-import
-markdown
+# Pin markdown https://github.com/getpelican/pelican-plugins/issues/1069
+markdown==2.6.11
 notebook
