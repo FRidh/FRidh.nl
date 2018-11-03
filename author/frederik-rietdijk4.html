@@ -11776,26 +11776,18 @@ div.collapseheader {
 }
 </style>
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
-<script type="text/javascript">
-init_mathjax = function() {
-    if (window.MathJax) {
-        // MathJax loaded
-        MathJax.Hub.Config({
-            tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
-            },
-            displayAlign: 'left', // Change this to 'center' to center equations.
-            "HTML-CSS": {
-                styles: {'.MathJax_Display': {"margin": 0}}
-            }
-        });
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true,
+        displayMath: [['$$','$$'], ["\\[","\\]"]]
     }
-}
-init_mathjax();
+});
 </script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <script type="text/javascript">
@@ -11954,19 +11946,6 @@ jQuery(document).ready(function($) {
                         </footer>
                     </article>
                     <article>
-                        <h1><a href="http://fridh.nl/2015/05/09/development-of-an-emission-model/">Development of an emission model</a></h1>
-                        <time datetime="2015-05-09 00:00:00+02:00" pubdate>
-                            <span class="month">May</span>
-                            <span class="day">09</span>
-                            <span class="year">2015</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='http://fridh.nl/category/blog.html'>Blog</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
                         <h1><a href="http://fridh.nl/2015/04/29/sonorus-meeting-in-naples/">SONORUS meeting in Naples</a></h1>
                         <time datetime="2015-04-29 00:00:00+02:00" pubdate>
                             <span class="month">Apr</span>
@@ -11997,19 +11976,6 @@ jQuery(document).ready(function($) {
                         <time datetime="2015-03-27 00:00:00+01:00" pubdate>
                             <span class="month">Mar</span>
                             <span class="day">27</span>
-                            <span class="year">2015</span>
-                        </time>
-                        <footer>
-                            <span class="categories">posted in
-                                <a class='category' href='http://fridh.nl/category/blog.html'>Blog</a>
-                            </span>
-                        </footer>
-                    </article>
-                    <article>
-                        <h1><a href="http://fridh.nl/2015/02/01/auralization-doppler-effect/">Auralization: Doppler effect</a></h1>
-                        <time datetime="2015-02-01 00:00:00+01:00" pubdate>
-                            <span class="month">Feb</span>
-                            <span class="day">01</span>
                             <span class="year">2015</span>
                         </time>
                         <footer>
