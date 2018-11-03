@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>FRidh's blog</title><link href="http://fridh.nl/" rel="alternate"></link><link href="http://fridh.nl/feeds/all-en.atom.xml" rel="self"></link><id>http://fridh.nl/</id><updated>2018-03-11T00:00:00+01:00</updated><entry><title>Finished PhD</title><link href="http://fridh.nl/2018/03/11/finished-phd/" rel="alternate"></link><published>2018-03-11T00:00:00+01:00</published><updated>2018-03-11T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2018-03-11:/2018/03/11/finished-phd/</id><summary type="html">&lt;p&gt;Back in September, I
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FRidh's blog</title><link href="https://fridh.nl/" rel="alternate"></link><link href="https://fridh.nl/feeds/all-en.atom.xml" rel="self"></link><id>https://fridh.nl/</id><updated>2018-03-11T00:00:00+01:00</updated><entry><title>Finished PhD</title><link href="https://fridh.nl/2018/03/11/finished-phd/" rel="alternate"></link><published>2018-03-11T00:00:00+01:00</published><updated>2018-03-11T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2018-03-11:/2018/03/11/finished-phd/</id><summary type="html">&lt;p&gt;Back in September, I
 &lt;a href="https://www.chalmers.se/en/departments/ace/calendar/Pages/Frederik-
 Rietdijk.aspx"&gt;defended&lt;/a&gt; my PhD thesis. The PDF can be
 &lt;a href="http://publications.lib.chalmers.se/records/fulltext/251306/251306.pdf"&gt;found&lt;/a&gt;
@@ -11,7 +11,7 @@ Rietdijk.aspx"&gt;defended&lt;/a&gt; my PhD thesis. The PDF can be
 &lt;a href="http://publications.lib.chalmers.se/records/fulltext/251306/251306.pdf"&gt;found&lt;/a&gt;
 in the Chalmers library. Furthermore, I made available a
 &lt;a href="https://github.com/FRidh/phd_thesis"&gt;routine&lt;/a&gt; to build the PDF from source,
-including the majority of the simulations. This is done using the &lt;a href="https://nixos.org/nix/"&gt;Nix package manager&lt;/a&gt;.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Urban Sound Planning Symposium</title><link href="http://fridh.nl/2016/09/17/urban-sound-planning-symposium/" rel="alternate"></link><published>2016-09-17T00:00:00+02:00</published><updated>2016-09-17T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-09-17:/2016/09/17/urban-sound-planning-symposium/</id><summary type="html">&lt;p&gt;On the 15th and 16th of September the &lt;a href="http://www.muellerbbm.com/events/seminars-and-workshops/urban-sound-planning/"&gt;Urban Sound Planning Symposium&lt;/a&gt; took place
+including the majority of the simulations. This is done using the &lt;a href="https://nixos.org/nix/"&gt;Nix package manager&lt;/a&gt;.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Urban Sound Planning Symposium</title><link href="https://fridh.nl/2016/09/17/urban-sound-planning-symposium/" rel="alternate"></link><published>2016-09-17T00:00:00+02:00</published><updated>2016-09-17T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-09-17:/2016/09/17/urban-sound-planning-symposium/</id><summary type="html">&lt;p&gt;On the 15th and 16th of September the &lt;a href="http://www.muellerbbm.com/events/seminars-and-workshops/urban-sound-planning/"&gt;Urban Sound Planning Symposium&lt;/a&gt; took place
 at Muller-BBM in Planegg, Germany. This occassion also marked the end of the
 SONORUS project. At the symposium we mostly looked back at what we've achieved
 these last three years. There was a short poster session and after the event was
@@ -21,7 +21,7 @@ at Muller-BBM in Planegg, Germany. This occassion also marked the end of the
 SONORUS project. At the symposium we mostly looked back at what we've achieved
 these last three years. There was a short poster session and after the event was
 over we got our "Urban Sound Planner" certificates. Finally I have something to hang
-up next to my shoe-lacing certificate.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Research visit to NASA Langley Research Center</title><link href="http://fridh.nl/2016/04/07/research-visit-to-nasa-langley-research-center/" rel="alternate"></link><published>2016-04-07T00:00:00+02:00</published><updated>2016-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-04-07:/2016/04/07/research-visit-to-nasa-langley-research-center/</id><summary type="html">&lt;p&gt;In March I was at NASA Langley Research Center in Hampton, Virginia, for a four
+up next to my shoe-lacing certificate.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Research visit to NASA Langley Research Center</title><link href="https://fridh.nl/2016/04/07/research-visit-to-nasa-langley-research-center/" rel="alternate"></link><published>2016-04-07T00:00:00+02:00</published><updated>2016-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-04-07:/2016/04/07/research-visit-to-nasa-langley-research-center/</id><summary type="html">&lt;p&gt;In March I was at NASA Langley Research Center in Hampton, Virginia, for a four
 week research visit. The goal of the visit was to exchange knowledge on
 auralization of aircraft and atmospheric turbulence modeling. During this period
 we improved a model I had been working on and demonstrated that this model can
@@ -37,7 +37,7 @@ be incorporated in the NASA Auralization Framework (NAF).&lt;/p&gt;
 &lt;p&gt;I was staying with a nice family in the town of Poquoson. While I've grown up
 nearby the coast I had never lived this close to the waterside before. I like
 the strong wind and smell of salt. It was an interesting experience living in
-this part of the United States and quite unlike the places I've lived in so far.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="aircraft"></category></entry><entry><title>SONORUS update</title><link href="http://fridh.nl/2016/04/06/sonorus-update/" rel="alternate"></link><published>2016-04-06T00:00:00+02:00</published><updated>2016-04-06T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-04-06:/2016/04/06/sonorus-update/</id><summary type="html">&lt;p&gt;It's been quite a while I've written on this blog about SONORUS, or anything
+this part of the United States and quite unlike the places I've lived in so far.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="aircraft"></category></entry><entry><title>SONORUS update</title><link href="https://fridh.nl/2016/04/06/sonorus-update/" rel="alternate"></link><published>2016-04-06T00:00:00+02:00</published><updated>2016-04-06T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2016-04-06:/2016/04/06/sonorus-update/</id><summary type="html">&lt;p&gt;It's been quite a while I've written on this blog about SONORUS, or anything
 else in fact. A lot has happened since then.&lt;/p&gt;
 &lt;p&gt;In October and November I was at Chalmers again for 6 weeks, following some
 courses. Furthermore, we had the school on Auralization and Visualization as
@@ -69,7 +69,7 @@ Apostolic Palace.&lt;/p&gt;
 Research Center. I wrote more about that in another post.&lt;/p&gt;
 &lt;p&gt;And just a couple of days ago we had another workshop, this time in Antwerp, Belgium.&lt;/p&gt;
 &lt;p&gt;The SONORUS project is almost over. In September there will be a final meeting in Munich.
-More about that later...&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Synthesis of aircraft emission and propagation</title><link href="http://fridh.nl/2015/08/21/synthesis-of-aircraft-emission-and-propagation/" rel="alternate"></link><published>2015-08-21T00:00:00+02:00</published><updated>2015-08-21T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-08-21:/2015/08/21/synthesis-of-aircraft-emission-and-propagation/</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a repost of a &lt;a href="https://sonorusfp7.wordpress.com/2015/08/21/synthesis-of-aircraft-emission-and-propagation"&gt;post of mine&lt;/a&gt; at the SONORUS blog&lt;/em&gt;&lt;/p&gt;
+More about that later...&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Synthesis of aircraft emission and propagation</title><link href="https://fridh.nl/2015/08/21/synthesis-of-aircraft-emission-and-propagation/" rel="alternate"></link><published>2015-08-21T00:00:00+02:00</published><updated>2015-08-21T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-08-21:/2015/08/21/synthesis-of-aircraft-emission-and-propagation/</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a repost of a &lt;a href="https://sonorusfp7.wordpress.com/2015/08/21/synthesis-of-aircraft-emission-and-propagation"&gt;post of mine&lt;/a&gt; at the SONORUS blog&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In an earlier post I gave an outline of my project, and mentioned that I am 
 currently working on an aircraft emission model for auralization. Since then I 
 developed a fully automated method to extract features from aircraft recordings. &lt;/p&gt;
@@ -167,9 +167,9 @@ full auralization, the other is a recording. Can you hear which is which?&lt;/p&
 &lt;p&gt;There are two quite noticeable differences between the recording and the 
 auralization. This specific auralization does not include the effects of 
 turbulence, and the level of the blade passing frequency is lower than it should 
-be.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="urban planning"></category><category term="aircraft"></category></entry><entry><title>Euronoise slides</title><link href="http://fridh.nl/2015/06/04/euronoise-slides/" rel="alternate"></link><published>2015-06-04T00:00:00+02:00</published><updated>2015-06-04T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-06-04:/2015/06/04/euronoise-slides/</id><summary type="html">&lt;p&gt;The &lt;a href="http://dx.doi.org/10.5281/zenodo.18111"&gt;slides&lt;/a&gt; I used for my presentation at Euronoise 2015 can be found online at Zenodo.
+be.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="urban planning"></category><category term="aircraft"></category></entry><entry><title>Euronoise slides</title><link href="https://fridh.nl/2015/06/04/euronoise-slides/" rel="alternate"></link><published>2015-06-04T00:00:00+02:00</published><updated>2015-06-04T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-06-04:/2015/06/04/euronoise-slides/</id><summary type="html">&lt;p&gt;The &lt;a href="http://dx.doi.org/10.5281/zenodo.18111"&gt;slides&lt;/a&gt; I used for my presentation at Euronoise 2015 can be found online at Zenodo.
 The &lt;a href="http://dx.doi.org/10.5281/zenodo.15702"&gt;proceedings&lt;/a&gt; are also available.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="http://dx.doi.org/10.5281/zenodo.18111"&gt;slides&lt;/a&gt; I used for my presentation at Euronoise 2015 can be found online at Zenodo.
-The &lt;a href="http://dx.doi.org/10.5281/zenodo.15702"&gt;proceedings&lt;/a&gt; are also available.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Swiss Air Force demonstrations in Duebendorf</title><link href="http://fridh.nl/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/" rel="alternate"></link><published>2015-05-19T00:00:00+02:00</published><updated>2015-05-19T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-05-19:/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/</id><summary type="html">&lt;p&gt;The headquarters of the Swiss Air Force is located in Duebendorf, and the 
+The &lt;a href="http://dx.doi.org/10.5281/zenodo.15702"&gt;proceedings&lt;/a&gt; are also available.&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Swiss Air Force demonstrations in Duebendorf</title><link href="https://fridh.nl/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/" rel="alternate"></link><published>2015-05-19T00:00:00+02:00</published><updated>2015-05-19T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-05-19:/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/</id><summary type="html">&lt;p&gt;The headquarters of the Swiss Air Force is located in Duebendorf, and the 
 airstrip of the base is not that far from where I work. Often you can see 
 paratroopers and helicopters or hear other aircraft take off. &lt;/p&gt;
 &lt;p&gt;Occasionally, one of the &lt;a href="https://en.wikipedia.org/wiki/Swiss_Air_Force#Air_demonstration_teams"&gt;demonstration teams&lt;/a&gt; practices.
@@ -207,17 +207,17 @@ flying over a dense area like this or flying over one or two farms is quite a
 difference. I am curious now to their risk assessment and how they've 
 eventually decided to keep doing these activities here.&lt;/p&gt;
 &lt;p&gt;To conclude, these activities can be noisy, and perhaps also dangerous. 
-However, on a more positive note, they also provide good entertainment during your break!&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="urban planning"></category></entry><entry><title>SONORUS meeting in Naples</title><link href="http://fridh.nl/2015/04/29/sonorus-meeting-in-naples/" rel="alternate"></link><published>2015-04-29T00:00:00+02:00</published><updated>2015-04-29T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-04-29:/2015/04/29/sonorus-meeting-in-naples/</id><summary type="html">&lt;p&gt;Two weeks ago there was a &lt;a href="http://fp7sonorus.eu"&gt;SONORUS&lt;/a&gt; meeting and school in Naples and Sorrento, Italy.
+However, on a more positive note, they also provide good entertainment during your break!&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category><category term="urban planning"></category></entry><entry><title>SONORUS meeting in Naples</title><link href="https://fridh.nl/2015/04/29/sonorus-meeting-in-naples/" rel="alternate"></link><published>2015-04-29T00:00:00+02:00</published><updated>2015-04-29T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-04-29:/2015/04/29/sonorus-meeting-in-naples/</id><summary type="html">&lt;p&gt;Two weeks ago there was a &lt;a href="http://fp7sonorus.eu"&gt;SONORUS&lt;/a&gt; meeting and school in Naples and Sorrento, Italy.
 The topic of the school was 'Computational Soundscape Analysis'. The next meeting will be in October in Gothenburg, Sweden.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Two weeks ago there was a &lt;a href="http://fp7sonorus.eu"&gt;SONORUS&lt;/a&gt; meeting and school in Naples and Sorrento, Italy.
-The topic of the school was 'Computational Soundscape Analysis'. The next meeting will be in October in Gothenburg, Sweden.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Paper at Euronoise</title><link href="http://fridh.nl/2015/04/28/paper-at-euronoise/" rel="alternate"></link><published>2015-04-28T00:00:00+02:00</published><updated>2015-04-28T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-04-28:/2015/04/28/paper-at-euronoise/</id><summary type="html">&lt;p&gt;The &lt;a href="http://www.euronoise2015.eu/timetable_tuesday.html"&gt;timetable&lt;/a&gt; for Euronoise 2015 is available. 
+The topic of the school was 'Computational Soundscape Analysis'. The next meeting will be in October in Gothenburg, Sweden.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Paper at Euronoise</title><link href="https://fridh.nl/2015/04/28/paper-at-euronoise/" rel="alternate"></link><published>2015-04-28T00:00:00+02:00</published><updated>2015-04-28T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-04-28:/2015/04/28/paper-at-euronoise/</id><summary type="html">&lt;p&gt;The &lt;a href="http://www.euronoise2015.eu/timetable_tuesday.html"&gt;timetable&lt;/a&gt; for Euronoise 2015 is available. 
 I will present the paper &lt;em&gt;Determining an Empirical Emission Model for the Auralization of Jet Aircraft&lt;/em&gt; on Tuesday the second at nine in the morning.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Update&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Seems like my presentation is moved to 10:20.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="http://www.euronoise2015.eu/timetable_tuesday.html"&gt;timetable&lt;/a&gt; for Euronoise 2015 is available. 
 I will present the paper &lt;em&gt;Determining an Empirical Emission Model for the Auralization of Jet Aircraft&lt;/em&gt; on Tuesday the second at nine in the morning.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Update&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Seems like my presentation is moved to 10:20.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Slides on Zenodo</title><link href="http://fridh.nl/2015/03/27/slides-on-zenodo/" rel="alternate"></link><published>2015-03-27T00:00:00+01:00</published><updated>2015-03-27T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-03-27:/2015/03/27/slides-on-zenodo/</id><summary type="html">&lt;p&gt;As posted earlier I've been &lt;a href="http://fridh.nl/2014/11/21/posters-and-slides-about-my-project/"&gt;uploading to Zenodo&lt;/a&gt; almost all slides, posters and proceedings that I made during my project.
-This includes the &lt;a href="http://dx.doi.org/10.5281/zenodo.16405"&gt;slides&lt;/a&gt; (as well as two auralizations) of the &lt;a href="http://dx.doi.org/10.1121/1.4900268"&gt;presentation&lt;/a&gt; I gave at the 168th ASA meeting in Indianapolis last year.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As posted earlier I've been &lt;a href="http://fridh.nl/2014/11/21/posters-and-slides-about-my-project/"&gt;uploading to Zenodo&lt;/a&gt; almost all slides, posters and proceedings that I made during my project.
-This includes the &lt;a href="http://dx.doi.org/10.5281/zenodo.16405"&gt;slides&lt;/a&gt; (as well as two auralizations) of the &lt;a href="http://dx.doi.org/10.1121/1.4900268"&gt;presentation&lt;/a&gt; I gave at the 168th ASA meeting in Indianapolis last year.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Research visit to Chalmers</title><link href="http://fridh.nl/2015/02/01/research-visit-to-chalmers/" rel="alternate"></link><published>2015-02-01T00:00:00+01:00</published><updated>2015-02-01T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-02-01:/2015/02/01/research-visit-to-chalmers/</id><summary type="html">&lt;p&gt;After the ASA meeting in Indianapolis I went to Gothenburg again for a research 
+&lt;p&gt;Seems like my presentation is moved to 10:20.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Slides on Zenodo</title><link href="https://fridh.nl/2015/03/27/slides-on-zenodo/" rel="alternate"></link><published>2015-03-27T00:00:00+01:00</published><updated>2015-03-27T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-03-27:/2015/03/27/slides-on-zenodo/</id><summary type="html">&lt;p&gt;As posted earlier I've been &lt;a href="https://fridh.nl/2014/11/21/posters-and-slides-about-my-project/"&gt;uploading to Zenodo&lt;/a&gt; almost all slides, posters and proceedings that I made during my project.
+This includes the &lt;a href="http://dx.doi.org/10.5281/zenodo.16405"&gt;slides&lt;/a&gt; (as well as two auralizations) of the &lt;a href="http://dx.doi.org/10.1121/1.4900268"&gt;presentation&lt;/a&gt; I gave at the 168th ASA meeting in Indianapolis last year.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As posted earlier I've been &lt;a href="https://fridh.nl/2014/11/21/posters-and-slides-about-my-project/"&gt;uploading to Zenodo&lt;/a&gt; almost all slides, posters and proceedings that I made during my project.
+This includes the &lt;a href="http://dx.doi.org/10.5281/zenodo.16405"&gt;slides&lt;/a&gt; (as well as two auralizations) of the &lt;a href="http://dx.doi.org/10.1121/1.4900268"&gt;presentation&lt;/a&gt; I gave at the 168th ASA meeting in Indianapolis last year.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Research visit to Chalmers</title><link href="https://fridh.nl/2015/02/01/research-visit-to-chalmers/" rel="alternate"></link><published>2015-02-01T00:00:00+01:00</published><updated>2015-02-01T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2015-02-01:/2015/02/01/research-visit-to-chalmers/</id><summary type="html">&lt;p&gt;After the ASA meeting in Indianapolis I went to Gothenburg again for a research 
 visit. As I wrote in my previous post it was strange to be there again. Last 
 spring I visited Gothenburg for just a couple of days, but now, staying for 
 seven weeks again is quite different. You start noticing quite a lot of things 
@@ -232,7 +232,7 @@ really get to work on the turbulence model anymore. However, I did manage to
 implement one nice part of the auralisation tool, namely support for Ambisonics. &lt;/p&gt;
 &lt;p&gt;Besides Chalmers I also visited SP in Borås. SP was a familar place for me as 
 well since I did an 
-&lt;a href="http://fridh.nl/thermoacoustic-refrigerator/"&gt;internship&lt;/a&gt; there in 2010. 
+&lt;a href="https://fridh.nl/thermoacoustic-refrigerator/"&gt;internship&lt;/a&gt; there in 2010. 
 Earlier I had made recordings with a SoundField microphone, however, at Empa we 
 do not have an Ambisonics setup. SP has a listening room with a third order 
 Ambisonics system, giving me the possibility to listen to the first order 
@@ -257,7 +257,7 @@ really get to work on the turbulence model anymore. However, I did manage to
 implement one nice part of the auralisation tool, namely support for Ambisonics. &lt;/p&gt;
 &lt;p&gt;Besides Chalmers I also visited SP in Borås. SP was a familar place for me as 
 well since I did an 
-&lt;a href="http://fridh.nl/thermoacoustic-refrigerator/"&gt;internship&lt;/a&gt; there in 2010. 
+&lt;a href="https://fridh.nl/thermoacoustic-refrigerator/"&gt;internship&lt;/a&gt; there in 2010. 
 Earlier I had made recordings with a SoundField microphone, however, at Empa we 
 do not have an Ambisonics setup. SP has a listening room with a third order 
 Ambisonics system, giving me the possibility to listen to the first order 
@@ -267,10 +267,10 @@ get both the recordings and auralisations working. Unfortunately there was one
 problem with the auralisations, somehow halfway the aircraft makes a U-turn. 
 While I haven't checked it any further, I think it is due to 
 the inclusion of the &lt;a href="http://en.wikipedia.org/wiki/Ambisonic_data_exchange_formats#Polarity"&gt;Condon-Shortley phase&lt;/a&gt; 
-in the &lt;a href="http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.special.sph_harm.html"&gt;function&lt;/a&gt; I used to calculate the spherical harmonics.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>168th ASA meeting</title><link href="http://fridh.nl/2014/11/21/168th-asa-meeting/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/168th-asa-meeting/</id><summary type="html">&lt;p&gt;Several weeks ago I was in Indianapolis for the &lt;a href="http://acousticalsociety.org/content/fall-2014-meeting"&gt;168th ASA meeting&lt;/a&gt;. The main reason
+in the &lt;a href="http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.special.sph_harm.html"&gt;function&lt;/a&gt; I used to calculate the spherical harmonics.&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>168th ASA meeting</title><link href="https://fridh.nl/2014/11/21/168th-asa-meeting/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/168th-asa-meeting/</id><summary type="html">&lt;p&gt;Several weeks ago I was in Indianapolis for the &lt;a href="http://acousticalsociety.org/content/fall-2014-meeting"&gt;168th ASA meeting&lt;/a&gt;. The main reason
 for me to go to this conference was to meet fellow &lt;a href="http://vastcon.wordpress.com"&gt;VASTCON&lt;/a&gt; members.&lt;/p&gt;
 &lt;p&gt;The conference was quite a bit different from the one I attended in 
-&lt;a href="http://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/"&gt;Krakow&lt;/a&gt;. There were spaces 
+&lt;a href="https://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/"&gt;Krakow&lt;/a&gt;. There were spaces 
 available that one could work, including internet connectivity, and the chairs 
 were actually comfortable. Basically every evening there were activities, 
 ranging from a visit to a museum to a Halloween party. While the conference was 
@@ -290,7 +290,7 @@ rotating rapidly moving over the road.&lt;/p&gt;
 Strange to be there again!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Several weeks ago I was in Indianapolis for the &lt;a href="http://acousticalsociety.org/content/fall-2014-meeting"&gt;168th ASA meeting&lt;/a&gt;. The main reason
 for me to go to this conference was to meet fellow &lt;a href="http://vastcon.wordpress.com"&gt;VASTCON&lt;/a&gt; members.&lt;/p&gt;
 &lt;p&gt;The conference was quite a bit different from the one I attended in 
-&lt;a href="http://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/"&gt;Krakow&lt;/a&gt;. There were spaces 
+&lt;a href="https://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/"&gt;Krakow&lt;/a&gt;. There were spaces 
 available that one could work, including internet connectivity, and the chairs 
 were actually comfortable. Basically every evening there were activities, 
 ranging from a visit to a museum to a Halloween party. While the conference was 
@@ -307,7 +307,7 @@ had a very interesting device they used to measure the noise from a rolling
 tyre. The device is basically a circularly shaped road with two wheels on arms 
 rotating rapidly moving over the road.&lt;/p&gt;
 &lt;p&gt;After a (very) short stay in The Netherlands I'm in Gothenburg again at Chalmers.
-Strange to be there again!&lt;/p&gt;</content></entry><entry><title>Posters and slides about my project</title><link href="http://fridh.nl/2014/11/21/posters-and-slides-about-my-project/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/posters-and-slides-about-my-project/</id><summary type="html">&lt;p&gt;Recently I've &lt;a href="https://zenodo.org/collection/user-sononus"&gt;uploaded&lt;/a&gt; some posters 
+Strange to be there again!&lt;/p&gt;</content></entry><entry><title>Posters and slides about my project</title><link href="https://fridh.nl/2014/11/21/posters-and-slides-about-my-project/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/posters-and-slides-about-my-project/</id><summary type="html">&lt;p&gt;Recently I've &lt;a href="https://zenodo.org/collection/user-sononus"&gt;uploaded&lt;/a&gt; some posters 
 and slides about my project to &lt;a href="http://zenodo.org"&gt;ZENODO&lt;/a&gt;.
 Back in May I gave a &lt;a href="http://dx.doi.org/10.5281/zenodo.12642"&gt;poster&lt;/a&gt; 
 presentation in Eindhoven during our project meeting. In October I presented a 
@@ -315,13 +315,13 @@ slightly different &lt;a href="http://dx.doi.org/10.5281/zenodo.12643"&gt;poster
 and slides about my project to &lt;a href="http://zenodo.org"&gt;ZENODO&lt;/a&gt;.
 Back in May I gave a &lt;a href="http://dx.doi.org/10.5281/zenodo.12642"&gt;poster&lt;/a&gt; 
 presentation in Eindhoven during our project meeting. In October I presented a 
-slightly different &lt;a href="http://dx.doi.org/10.5281/zenodo.12643"&gt;poster&lt;/a&gt; during the Empa PhD symposium.&lt;/p&gt;</content></entry><entry><title>Publishing data: ZENODO and figshare</title><link href="http://fridh.nl/2014/11/21/publishing-data-zenodo-and-figshare/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/publishing-data-zenodo-and-figshare/</id><summary type="html">&lt;p&gt;Searching for a way to publish scientific data I found two interesting 
+slightly different &lt;a href="http://dx.doi.org/10.5281/zenodo.12643"&gt;poster&lt;/a&gt; during the Empa PhD symposium.&lt;/p&gt;</content></entry><entry><title>Publishing data: ZENODO and figshare</title><link href="https://fridh.nl/2014/11/21/publishing-data-zenodo-and-figshare/" rel="alternate"></link><published>2014-11-21T00:00:00+01:00</published><updated>2014-11-21T00:00:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-11-21:/2014/11/21/publishing-data-zenodo-and-figshare/</id><summary type="html">&lt;p&gt;Searching for a way to publish scientific data I found two interesting 
 platforms: &lt;a href="http://figshare.com"&gt;figshare&lt;/a&gt; and &lt;a href="http://zenodo.org"&gt;ZENODO&lt;/a&gt;.
 I've made a &lt;a href="http://dx.doi.org/10.5281/zenodo.12664"&gt;quick comparison&lt;/a&gt; between 
 the two platforms. For me the clear winner is ZENODO.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Searching for a way to publish scientific data I found two interesting 
 platforms: &lt;a href="http://figshare.com"&gt;figshare&lt;/a&gt; and &lt;a href="http://zenodo.org"&gt;ZENODO&lt;/a&gt;.
 I've made a &lt;a href="http://dx.doi.org/10.5281/zenodo.12664"&gt;quick comparison&lt;/a&gt; between 
-the two platforms. For me the clear winner is ZENODO.&lt;/p&gt;</content></entry><entry><title>Good Country</title><link href="http://fridh.nl/2014/10/09/good-country/" rel="alternate"></link><published>2014-10-09T00:00:00+02:00</published><updated>2014-10-09T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-09:/2014/10/09/good-country/</id><summary type="html">&lt;p&gt;Every other day or so I watch a &lt;a href="http://ted.com"&gt;TED talk&lt;/a&gt; and today I
+the two platforms. For me the clear winner is ZENODO.&lt;/p&gt;</content></entry><entry><title>Good Country</title><link href="https://fridh.nl/2014/10/09/good-country/" rel="alternate"></link><published>2014-10-09T00:00:00+02:00</published><updated>2014-10-09T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-09:/2014/10/09/good-country/</id><summary type="html">&lt;p&gt;Every other day or so I watch a &lt;a href="http://ted.com"&gt;TED talk&lt;/a&gt; and today I
 saw a
 &lt;a href="http://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world?language=en"&gt;talk&lt;/a&gt;
 by Simon Anholt titled &lt;em&gt;Which country does the most good for the
@@ -359,7 +359,7 @@ Well, if you want to have an answer on that I suggest watching the talk!&lt;/p&g
                     frameborder='0' webkitAllowFullScreen mozallowfullscreen
                     allowFullScreen&gt;
                 &lt;/iframe&gt;
-            &lt;/span&gt;&lt;/p&gt;</content></entry><entry><title>mdwiki: a Wiki using Markdown</title><link href="http://fridh.nl/2014/10/05/mdwiki-a-wiki-using-markdown/" rel="alternate"></link><published>2014-10-05T00:00:00+02:00</published><updated>2014-10-05T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-05:/2014/10/05/mdwiki-a-wiki-using-markdown/</id><summary type="html">&lt;p&gt;Some time ago I encountered
+            &lt;/span&gt;&lt;/p&gt;</content></entry><entry><title>mdwiki: a Wiki using Markdown</title><link href="https://fridh.nl/2014/10/05/mdwiki-a-wiki-using-markdown/" rel="alternate"></link><published>2014-10-05T00:00:00+02:00</published><updated>2014-10-05T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-05:/2014/10/05/mdwiki-a-wiki-using-markdown/</id><summary type="html">&lt;p&gt;Some time ago I encountered
 &lt;a href="http://dynalon.github.io/mdwiki/#!index.md"&gt;mdwiki&lt;/a&gt;, a Wiki which is
 processed entirely client-side. In short:&lt;/p&gt;
 &lt;ol&gt;
@@ -401,7 +401,7 @@ make nice looking sites as can be seen in the
 can be added using
 &lt;a href="http://dynalon.github.io/mdwiki/#!gimmicks.md"&gt;gimmicks&lt;/a&gt;. Examples of
 added functionality are the parsing of equations, embedding Google Maps
-and YouTube video's.&lt;/p&gt;</content></entry><entry><title>Race Against The Machine</title><link href="http://fridh.nl/2014/10/05/race-against-the-machine/" rel="alternate"></link><published>2014-10-05T00:00:00+02:00</published><updated>2014-10-05T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-05:/2014/10/05/race-against-the-machine/</id><summary type="html">&lt;p&gt;Last year I saw &lt;a href="http://www.ted.com/talks/erik_brynjolfsson_the_key_to_growth_race_em_with_em_the_machines"&gt;this TED talk&lt;/a&gt;
+and YouTube video's.&lt;/p&gt;</content></entry><entry><title>Race Against The Machine</title><link href="https://fridh.nl/2014/10/05/race-against-the-machine/" rel="alternate"></link><published>2014-10-05T00:00:00+02:00</published><updated>2014-10-05T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-10-05:/2014/10/05/race-against-the-machine/</id><summary type="html">&lt;p&gt;Last year I saw &lt;a href="http://www.ted.com/talks/erik_brynjolfsson_the_key_to_growth_race_em_with_em_the_machines"&gt;this TED talk&lt;/a&gt;
 by &lt;a href="http://en.wikipedia.org/wiki/Erik_Brynjolfsson"&gt;Erik Brynjolfsson&lt;/a&gt;
 on how we should handle the digital revolution. In 2011 he wrote &lt;em&gt;Race
 Against the Machine&lt;/em&gt; together with &lt;a href="http://en.wikipedia.org/wiki/Andrew_McAfee"&gt;Andrew McAfee&lt;/a&gt; and last week I
@@ -431,7 +431,7 @@ by Brynjolfsson and McAfee.&lt;/p&gt;
                     frameborder='0' webkitAllowFullScreen mozallowfullscreen
                     allowFullScreen&gt;
                 &lt;/iframe&gt;
-            &lt;/span&gt;&lt;/p&gt;</content></entry><entry><title>Forum Acusticum 2014, Krakow</title><link href="http://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/" rel="alternate"></link><published>2014-09-14T00:00:00+02:00</published><updated>2014-09-14T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-09-14:/2014/09/14/forum-acusticum-2014-krakow/</id><summary type="html">&lt;p&gt;Last week the conference &lt;a href="http://fa2014.pl"&gt;Forum Acusticum 2014&lt;/a&gt; took
+            &lt;/span&gt;&lt;/p&gt;</content></entry><entry><title>Forum Acusticum 2014, Krakow</title><link href="https://fridh.nl/2014/09/14/forum-acusticum-2014-krakow/" rel="alternate"></link><published>2014-09-14T00:00:00+02:00</published><updated>2014-09-14T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-09-14:/2014/09/14/forum-acusticum-2014-krakow/</id><summary type="html">&lt;p&gt;Last week the conference &lt;a href="http://fa2014.pl"&gt;Forum Acusticum 2014&lt;/a&gt; took
 place in the city of Krakow, Poland. From Monday till Friday there were
 presentations as well as meetings of technical committees. The
 presentations covered a wide range of topics like structural acoustics,
@@ -479,7 +479,7 @@ curious how they deal with this.&lt;/p&gt;
 &lt;p&gt;The city of Krakow surprised me a lot. It's quite a green city and there
 seems to be a good and relaxed mood. There's plenty of pubs and
 restaurants, especially around the main square which is huge.&lt;/p&gt;
-&lt;p&gt;Anyway, that's my summary on FA2014!&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Back in Gothenburg for SONORUS</title><link href="http://fridh.nl/2014/04/07/back-in-gothenburg-for-sonorus/" rel="alternate"></link><published>2014-04-07T00:00:00+02:00</published><updated>2014-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-04-07:/2014/04/07/back-in-gothenburg-for-sonorus/</id><summary type="html">&lt;p&gt;Last month I was back in Gothenburg for a week and it was nice! I've
+&lt;p&gt;Anyway, that's my summary on FA2014!&lt;/p&gt;</content><category term="acoustics"></category><category term="work"></category><category term="sonorus"></category></entry><entry><title>Back in Gothenburg for SONORUS</title><link href="https://fridh.nl/2014/04/07/back-in-gothenburg-for-sonorus/" rel="alternate"></link><published>2014-04-07T00:00:00+02:00</published><updated>2014-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-04-07:/2014/04/07/back-in-gothenburg-for-sonorus/</id><summary type="html">&lt;p&gt;Last month I was back in Gothenburg for a week and it was nice! I've
 been living in Gothenburg for close to two years and being back there
 brought up some good memories. The reason I was there again was that we
 had a course for &lt;a href="http://www.fp7sonorus.eu/"&gt;SONORUS&lt;/a&gt; on leadership.&lt;/p&gt;
@@ -507,7 +507,7 @@ spaghetti, a meter of tape and a marshmallow, or at least we tried!&lt;/p&gt;
 project, like discussing how we would cooperate, e.g. with regards to
 sharing data. Another topic that was discussed is the upcoming
 &lt;a href="http://www.chchearing.org/noise-center-home/international-noise-awareness-day"&gt;International Noise Awareness Day&lt;/a&gt;,
-but more about that later!&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Sparse arrays in Python</title><link href="http://fridh.nl/2014/04/07/sparse-arrays-in-python/" rel="alternate"></link><published>2014-04-07T00:00:00+02:00</published><updated>2014-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-04-07:/2014/04/07/sparse-arrays-in-python/</id><summary type="html">&lt;p&gt;Numpy offers dense arrays and both &lt;a href="http://www.numpy.org/"&gt;Numpy&lt;/a&gt; and
+but more about that later!&lt;/p&gt;</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Sparse arrays in Python</title><link href="https://fridh.nl/2014/04/07/sparse-arrays-in-python/" rel="alternate"></link><published>2014-04-07T00:00:00+02:00</published><updated>2014-04-07T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-04-07:/2014/04/07/sparse-arrays-in-python/</id><summary type="html">&lt;p&gt;Numpy offers dense arrays and both &lt;a href="http://www.numpy.org/"&gt;Numpy&lt;/a&gt; and
 &lt;a href="http://scipy.org/"&gt;Scipy&lt;/a&gt; offer sparse matrices. However, they don't
 offer any sparse array solution. On the web I found some implementations
 of sparse arrays but they were generally quite limited:&lt;/p&gt;
@@ -577,7 +577,7 @@ faster than the plain Python implementation it still is about a factor
 1000 slower than dense arrays when operatoring with a dense array.
 Unfortunately this is too slow for my use case, so for now I reverted to
 using dense arrays but with a reduced model size. Nevertheless I am sure
-there is a significant performance increase possible.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Planet Acoustics</title><link href="http://fridh.nl/2014/03/09/planet-acoustics/" rel="alternate"></link><published>2014-03-09T19:05:00+01:00</published><updated>2014-03-09T19:05:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-03-09:/2014/03/09/planet-acoustics/</id><summary type="html">&lt;p&gt;Recently I set up a new &lt;a href="http://planetplanet.org"&gt;Planet&lt;/a&gt; aimed at acousticians called 
+there is a significant performance increase possible.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Planet Acoustics</title><link href="https://fridh.nl/2014/03/09/planet-acoustics/" rel="alternate"></link><published>2014-03-09T19:05:00+01:00</published><updated>2014-03-09T19:05:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-03-09:/2014/03/09/planet-acoustics/</id><summary type="html">&lt;p&gt;Recently I set up a new &lt;a href="http://planetplanet.org"&gt;Planet&lt;/a&gt; aimed at acousticians called 
 &lt;a href="http://planetacoustics.org"&gt;Planet Acoustics&lt;/a&gt;. A Planet is basically a &lt;a href="http://en.wikipedia.org/wiki/Web_syndication"&gt;feed&lt;/a&gt; reader; it downloads news feeds 
 published by web sites and aggregates their content together into a single 
 combined feed. The purpose of this Planet is to collect blogs and news by and 
@@ -609,7 +609,7 @@ are informal. People write about their current work, problems they face, events
 they attend and often share nice tips and tricks or even detailed tutorials.&lt;/p&gt;
 &lt;p&gt;I hope that &lt;a href="http://planetacoustics.org"&gt;Planet Acoustics&lt;/a&gt; will become a Planet with many nice posts regarding acoustics and the life of acousticians.
 If you would like to have your posts syndicated, then please send an e-mail to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#97;&amp;#100;&amp;#109;&amp;#105;&amp;#110;&amp;#64;&amp;#112;&amp;#108;&amp;#97;&amp;#110;&amp;#101;&amp;#116;&amp;#97;&amp;#99;&amp;#111;&amp;#117;&amp;#115;&amp;#116;&amp;#105;&amp;#99;&amp;#115;&amp;#46;&amp;#111;&amp;#114;&amp;#103;"&gt;&amp;#97;&amp;#100;&amp;#109;&amp;#105;&amp;#110;&amp;#64;&amp;#112;&amp;#108;&amp;#97;&amp;#110;&amp;#101;&amp;#116;&amp;#97;&amp;#99;&amp;#111;&amp;#117;&amp;#115;&amp;#116;&amp;#105;&amp;#99;&amp;#115;&amp;#46;&amp;#111;&amp;#114;&amp;#103;&lt;/a&gt; with your name and a link to your &lt;a href="http://en.wikipedia.org/wiki/Atom_(standard)"&gt;Atom&lt;/a&gt; or &lt;a href="http://en.wikipedia.org/wiki/RSS"&gt;RSS&lt;/a&gt; feed.
-Hopefully, in time, Planet Acoustics will become just as successfull as those Planets I referred to :-)&lt;/p&gt;</content><category term="acoustics"></category></entry><entry><title>Blogging with Pelican</title><link href="http://fridh.nl/2014/03/09/blogging-with-pelican/" rel="alternate"></link><published>2014-03-09T18:20:00+01:00</published><updated>2014-03-09T18:20:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-03-09:/2014/03/09/blogging-with-pelican/</id><summary type="html">&lt;p&gt;Joining many others I've just switched my blog from Wordpress to Pelican. Writing posts in Markdown or ReStructuredText and no more Wordpress upgrades, yay :-)&lt;/p&gt;</summary><content type="html">&lt;p&gt;Joining many others I've just switched my blog from Wordpress to Pelican. Writing posts in Markdown or ReStructuredText and no more Wordpress upgrades, yay :-)&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Modelling a turbulent atmosphere</title><link href="http://fridh.nl/2013/12/11/modelling-a-turbulent-atmosphere/" rel="alternate"></link><published>2013-12-11T10:35:00+01:00</published><updated>2013-12-11T10:35:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-12-11:/2013/12/11/modelling-a-turbulent-atmosphere/</id><summary type="html">&lt;p&gt;When listening to an aircraft flying over, you can hear that the level
+Hopefully, in time, Planet Acoustics will become just as successfull as those Planets I referred to :-)&lt;/p&gt;</content><category term="acoustics"></category></entry><entry><title>Blogging with Pelican</title><link href="https://fridh.nl/2014/03/09/blogging-with-pelican/" rel="alternate"></link><published>2014-03-09T18:20:00+01:00</published><updated>2014-03-09T18:20:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2014-03-09:/2014/03/09/blogging-with-pelican/</id><summary type="html">&lt;p&gt;Joining many others I've just switched my blog from Wordpress to Pelican. Writing posts in Markdown or ReStructuredText and no more Wordpress upgrades, yay :-)&lt;/p&gt;</summary><content type="html">&lt;p&gt;Joining many others I've just switched my blog from Wordpress to Pelican. Writing posts in Markdown or ReStructuredText and no more Wordpress upgrades, yay :-)&lt;/p&gt;</content><category term="python"></category></entry><entry><title>Modelling a turbulent atmosphere</title><link href="https://fridh.nl/2013/12/11/modelling-a-turbulent-atmosphere/" rel="alternate"></link><published>2013-12-11T10:35:00+01:00</published><updated>2013-12-11T10:35:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-12-11:/2013/12/11/modelling-a-turbulent-atmosphere/</id><summary type="html">&lt;p&gt;When listening to an aircraft flying over, you can hear that the level
 and spectral contents fluctuate somewhat. These fluctuations are due to
 turbulence in the atmosphere, affecting the sound generation (variable
 load on engines) and the sound propagation. In order to create a
@@ -626,20 +626,20 @@ calculated based on a spectrum of fluctuations. Well known descriptions
 of these spectra are the Gaussian and von Karman spectra.&lt;/p&gt;
 &lt;p&gt;The figure belows shows a portion of two turbulence spectra.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Gaussian and Von Karman spectral densities as function of wavenumber.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;A random turbulence field is created by the superposition of modes. The
 figure below shows the amplitude of these modes as function of
 wavenumber.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/salomons_figure_J1.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/salomons_figure_J1-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/salomons_figure_J1.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/salomons_figure_J1-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Gaussian and Von Karman mode amplitudes as function of wavenumber.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;And finally a figure showing the refractive-index fluctuation. The field
 is generated using a Von Karman spectrum and 200 modes.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/VonKarman2DTempWind_field.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/VonKarman2DTempWind_field-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/VonKarman2DTempWind_field.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/VonKarman2DTempWind_field-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Von Karmann refractive-index field.&lt;/p&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;When listening to an aircraft flying over, you can hear that the level
@@ -659,23 +659,23 @@ calculated based on a spectrum of fluctuations. Well known descriptions
 of these spectra are the Gaussian and von Karman spectra.&lt;/p&gt;
 &lt;p&gt;The figure belows shows a portion of two turbulence spectra.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Gaussian and Von Karman spectral densities as function of wavenumber.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;A random turbulence field is created by the superposition of modes. The
 figure below shows the amplitude of these modes as function of
 wavenumber.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/salomons_figure_J1.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/salomons_figure_J1-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/salomons_figure_J1.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/salomons_figure_J1-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Gaussian and Von Karman mode amplitudes as function of wavenumber.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;And finally a figure showing the refractive-index fluctuation. The field
 is generated using a Von Karman spectrum and 200 modes.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/12/VonKarman2DTempWind_field.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/12/VonKarman2DTempWind_field-300x225.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/12/VonKarman2DTempWind_field.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/12/VonKarman2DTempWind_field-300x225.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Von Karmann refractive-index field.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Lloyd's mirror effect</title><link href="http://fridh.nl/2013/11/15/lloyds-mirror-effect/" rel="alternate"></link><published>2013-11-15T18:12:00+01:00</published><updated>2013-11-15T18:12:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-11-15:/2013/11/15/lloyds-mirror-effect/</id><summary type="html">&lt;p&gt;When two waves are superimposed on each other it is possible that the
+</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Lloyd's mirror effect</title><link href="https://fridh.nl/2013/11/15/lloyds-mirror-effect/" rel="alternate"></link><published>2013-11-15T18:12:00+01:00</published><updated>2013-11-15T18:12:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-11-15:/2013/11/15/lloyds-mirror-effect/</id><summary type="html">&lt;p&gt;When two waves are superimposed on each other it is possible that the
 resultant wave has a higher or lower amplitude at certain moments in
 time. This phenomenon is called interference. One classical experiment
 related to interference is Lloyd's mirror.&amp;nbsp;In the classical experiment,
@@ -699,7 +699,7 @@ since my implementation supports reflections from buildings as well, the
 effect will also be obtained due to these reflections from facades,
 although far less pronounced.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/11/mirror_effect.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/11/mirror_effect-300x226.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/11/mirror_effect.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/11/mirror_effect-300x226.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.&lt;/p&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;When two waves are superimposed on each other it is possible that the
@@ -726,10 +726,10 @@ since my implementation supports reflections from buildings as well, the
 effect will also be obtained due to these reflections from facades,
 although far less pronounced.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/11/mirror_effect.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/11/mirror_effect-300x226.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/11/mirror_effect.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/11/mirror_effect-300x226.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Project meeting of SONORUS in Ghent, Belgium</title><link href="http://fridh.nl/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/" rel="alternate"></link><published>2013-11-10T22:04:00+01:00</published><updated>2013-11-10T22:04:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-11-10:/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/</id><summary type="html">&lt;p&gt;Last week was the first winterschool of the &lt;a class="reference external" href="http://www.fp7sonorus.eu/"&gt;SONORUS project&lt;/a&gt;&amp;nbsp;as well
+</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Project meeting of SONORUS in Ghent, Belgium</title><link href="https://fridh.nl/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/" rel="alternate"></link><published>2013-11-10T22:04:00+01:00</published><updated>2013-11-10T22:04:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-11-10:/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/</id><summary type="html">&lt;p&gt;Last week was the first winterschool of the &lt;a class="reference external" href="http://www.fp7sonorus.eu/"&gt;SONORUS project&lt;/a&gt;&amp;nbsp;as well
 as a Network Meeting and this was also the first time for us, ESR's, to
 meet each other and all other partners involved in this project. SONORUS
 is an Initial Training Network under the FP7 People Programme in the
@@ -758,7 +758,7 @@ traffic noise shielding. Basically, the shape of a rooftop can have
 great influence on how much sound is diffracted and thus how quiet a
 courtyard could potentially become.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/11/rooftops.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/11/rooftops-300x230.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/11/rooftops.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/11/rooftops-300x230.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The importance of roof shape for road traffic
 noise shielding in the urban environment environment, T. Van Renterghem
 et al., Journal of Sound and Vibration, 2010.[/caption]&lt;/p&gt;
@@ -805,7 +805,7 @@ traffic noise shielding. Basically, the shape of a rooftop can have
 great influence on how much sound is diffracted and thus how quiet a
 courtyard could potentially become.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/11/rooftops.png"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/11/rooftops-300x230.png" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/11/rooftops.png"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/11/rooftops-300x230.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The importance of roof shape for road traffic
 noise shielding in the urban environment environment, T. Van Renterghem
 et al., Journal of Sound and Vibration, 2010.[/caption]&lt;/p&gt;
@@ -823,7 +823,7 @@ the details at the time my general impression was that the&amp;nbsp;consensus&am
 that we should definitely look deeper into these kind of tools.&lt;/p&gt;
 &lt;p&gt;All in all I think this meeting was quite fruitful and I'm looking
 forward to the next time!&lt;/p&gt;
-</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Auralisation of aircraft noise</title><link href="http://fridh.nl/2013/09/26/auralisation-of-aircraft-noise/" rel="alternate"></link><published>2013-09-26T22:59:00+02:00</published><updated>2013-09-26T22:59:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-09-26:/2013/09/26/auralisation-of-aircraft-noise/</id><summary type="html">&lt;p&gt;Almost two months ago I started working at the Swiss research institute
+</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Auralisation of aircraft noise</title><link href="https://fridh.nl/2013/09/26/auralisation-of-aircraft-noise/" rel="alternate"></link><published>2013-09-26T22:59:00+02:00</published><updated>2013-09-26T22:59:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-09-26:/2013/09/26/auralisation-of-aircraft-noise/</id><summary type="html">&lt;p&gt;Almost two months ago I started working at the Swiss research institute
 Empa in Dübendorf, Switzerland, as part of a European Seventh Framework
 project called &lt;a class="reference external" href="http://www.fp7sonorus.eu/"&gt;Sonorus&lt;/a&gt;. The project is about urban sound planning and
 my task is to develop an aircraft noise simulator. &amp;nbsp;The first two months
@@ -873,7 +873,7 @@ how much does turbulence in the atmosphere influence the propagation?
 How to simulate decorrelation? How to reproduce correct over-head
 information? And quite some more questions that need answering the
 coming three years :-)&lt;/p&gt;
-</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Kungsleden - From Abisko to Nikkaluokta</title><link href="http://fridh.nl/2013/07/18/kungsleden/" rel="alternate"></link><published>2013-07-18T14:37:00+02:00</published><updated>2013-07-18T14:37:00+02:00</updated><author><name>admin</name></author><id>tag:fridh.nl,2013-07-18:/2013/07/18/kungsleden/</id><summary type="html">&lt;p&gt;Ever since I my first visit to Sweden I have been wanting to go to
+</content><category term="acoustics"></category><category term="sonorus"></category></entry><entry><title>Kungsleden - From Abisko to Nikkaluokta</title><link href="https://fridh.nl/2013/07/18/kungsleden/" rel="alternate"></link><published>2013-07-18T14:37:00+02:00</published><updated>2013-07-18T14:37:00+02:00</updated><author><name>admin</name></author><id>tag:fridh.nl,2013-07-18:/2013/07/18/kungsleden/</id><summary type="html">&lt;p&gt;Ever since I my first visit to Sweden I have been wanting to go to
 Lapland during summertime and trek along the Kungsleden from Abisko to
 Nikkaluokta. Last month I finally did it! While at times I got rather
 frustrated during the trek it was overall a great experience.&lt;/p&gt;
@@ -991,7 +991,7 @@ passing Ladtjojaure&amp;nbsp;and LapDonalds. After some hours and some fierce
 battles with mosquitoes I arrived in Nikkaluokta where I spend the night
 in a cottage. Noon next day I took the bus to Kiruna and a full day
 later I arrived back in Gothenburg. Home sweet home :-)&lt;/p&gt;
-</content><category term="hiking"></category><category term="holiday"></category><category term="sweden"></category></entry><entry><title>Final weeks in India</title><link href="http://fridh.nl/2013/06/29/final-weeks-in-india/" rel="alternate"></link><published>2013-06-29T13:42:00+02:00</published><updated>2013-06-29T13:42:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-06-29:/2013/06/29/final-weeks-in-india/</id><summary type="html">&lt;p&gt;It's four weeks now that I am back in Sweden. June the 2nd I arrived
+</content><category term="hiking"></category><category term="holiday"></category><category term="sweden"></category></entry><entry><title>Final weeks in India</title><link href="https://fridh.nl/2013/06/29/final-weeks-in-india/" rel="alternate"></link><published>2013-06-29T13:42:00+02:00</published><updated>2013-06-29T13:42:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-06-29:/2013/06/29/final-weeks-in-india/</id><summary type="html">&lt;p&gt;It's four weeks now that I am back in Sweden. June the 2nd I arrived
 back home in Gothenburg. It was quite a change, for sure! But it was
 definitely good. I really enjoyed my 4.5 months India experience, but
 after some time I was starting to feel like being home again. Let's give
@@ -1051,7 +1051,7 @@ growing so much; big concrete hotels are appearing everywhere and they
 simply don't fit in. Since I had quite some work left on my thesis I
 wasn't able to explore much of Ladakh but I will definitely come back
 here for trekking, or maybe some teaching? We'll see!&lt;/p&gt;
-</content><category term="india"></category><category term="study"></category></entry><entry><title>Holi and McLeod Ganj</title><link href="http://fridh.nl/2013/04/25/holi-and-mcleod-ganj/" rel="alternate"></link><published>2013-04-25T12:46:00+02:00</published><updated>2013-04-25T12:46:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-04-25:/2013/04/25/holi-and-mcleod-ganj/</id><summary type="html">&lt;p&gt;In my previous post I wrote how few foreign tourists could be found in
+</content><category term="india"></category><category term="study"></category></entry><entry><title>Holi and McLeod Ganj</title><link href="https://fridh.nl/2013/04/25/holi-and-mcleod-ganj/" rel="alternate"></link><published>2013-04-25T12:46:00+02:00</published><updated>2013-04-25T12:46:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-04-25:/2013/04/25/holi-and-mcleod-ganj/</id><summary type="html">&lt;p&gt;In my previous post I wrote how few foreign tourists could be found in
 Shimla. Well, I've spend some weeks now here in McLeod Ganj, and I &amp;nbsp;can
 tell you it's quite the opposite. You really have to look hard to find
 Indian people around here! Okay, they're still here, but seem to be a
@@ -1127,12 +1127,12 @@ yet whether I go there via Udhampur or Jammu. While I don't want to go
 via the latter I am told it is easiest to go from there. Hmmm, I'll have
 to think about it. Maybe when I go up Triund again and spend the night
 at the Snowline Cafe?&lt;/p&gt;
-</content><category term="india"></category></entry><entry><title>Jodhpur!</title><link href="http://fridh.nl/2013/02/14/jodhpur/" rel="alternate"></link><published>2013-02-14T06:04:00+01:00</published><updated>2013-02-14T06:04:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-02-14:/2013/02/14/jodhpur/</id><summary type="html">&lt;p&gt;During my previous post I already wrote that I arrived in Jodhpur, how
+</content><category term="india"></category></entry><entry><title>Jodhpur!</title><link href="https://fridh.nl/2013/02/14/jodhpur/" rel="alternate"></link><published>2013-02-14T06:04:00+01:00</published><updated>2013-02-14T06:04:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-02-14:/2013/02/14/jodhpur/</id><summary type="html">&lt;p&gt;During my previous post I already wrote that I arrived in Jodhpur, how
 amazing the guesthouse was and that I went to see an Indian doctor. The
 medication did its work and after some days I was feeling good again,
 and ready to explore the town!&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0169-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0169-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0169-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0169-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The fortress&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Jodhpur has a nice bazaar around the clocktower. Here one can also find
@@ -1142,7 +1142,7 @@ with water and spices. Normally one drinks a lassi but this one is quite
 a bit thicker, requiring the use of a spoon. It also had a strong lemon
 taste to it.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0188-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0188-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0188-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0188-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The fortress entrance&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The main attraction of Jodhpur is the fortress. Located on a hill it is
@@ -1150,11 +1150,11 @@ beautiful to see. The fortress also offers amazing views over the new
 and the old, blue city. In this case I think pictures say more than
 words :-)&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0259-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0259-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0259-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0259-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Room&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0241-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0241-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0241-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0241-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The blue city and a flock of pigeons that can always be found at the fort.&lt;/p&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;During my previous post I already wrote that I arrived in Jodhpur, how
@@ -1162,7 +1162,7 @@ amazing the guesthouse was and that I went to see an Indian doctor. The
 medication did its work and after some days I was feeling good again,
 and ready to explore the town!&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0169-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0169-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0169-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0169-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The fortress&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Jodhpur has a nice bazaar around the clocktower. Here one can also find
@@ -1172,7 +1172,7 @@ with water and spices. Normally one drinks a lassi but this one is quite
 a bit thicker, requiring the use of a spoon. It also had a strong lemon
 taste to it.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0188-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0188-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0188-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0188-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The fortress entrance&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The main attraction of Jodhpur is the fortress. Located on a hill it is
@@ -1180,24 +1180,24 @@ beautiful to see. The fortress also offers amazing views over the new
 and the old, blue city. In this case I think pictures say more than
 words :-)&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0259-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0259-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0259-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0259-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Room&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="http://fridh.nl/images/2013/02/IMG_0241-1024x768.jpg"&gt;&lt;img alt="" src="http://fridh.nl/images/2013/02/IMG_0241-300x225.jpg" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://fridh.nl/images/2013/02/IMG_0241-1024x768.jpg"&gt;&lt;img alt="" src="https://fridh.nl/images/2013/02/IMG_0241-300x225.jpg" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;The blue city and a flock of pigeons that can always be found at the fort.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="india"></category></entry><entry><title>Agra, Jaipur and now Jodhpur</title><link href="http://fridh.nl/2013/02/02/agra-jaipur-and-now-jodhpur/" rel="alternate"></link><published>2013-02-02T08:09:00+01:00</published><updated>2013-02-02T08:09:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-02-02:/2013/02/02/agra-jaipur-and-now-jodhpur/</id><summary type="html">&lt;p&gt;Two and a half weeks ago I arrived in Delhi. Since then I went to Agra,
+</content><category term="india"></category></entry><entry><title>Agra, Jaipur and now Jodhpur</title><link href="https://fridh.nl/2013/02/02/agra-jaipur-and-now-jodhpur/" rel="alternate"></link><published>2013-02-02T08:09:00+01:00</published><updated>2013-02-02T08:09:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2013-02-02:/2013/02/02/agra-jaipur-and-now-jodhpur/</id><summary type="html">&lt;p&gt;Two and a half weeks ago I arrived in Delhi. Since then I went to Agra,
 Jaipur, and Jodhpur, where I decided to stay some longer. Let's try and
 keep it chronological, and start with Agra.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Taj Mahal" src="http://fridh.nl/images/2013/02/IMG_0128-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Taj Mahal" src="https://fridh.nl/images/2013/02/IMG_0128-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I was in Agra for I think 5 nights, and the location I was staying, Saj
 Palace, was quite nice. There were plenty small restaurants and shops
 around, and the hotel had a nice view on the Taj. People came and went,
 but like me, there was a Canadian family staying a bit longer. They were
 actually on a world trip of a whopping 14 months! Anyhow, in Agra I
 finally was able to do some work on my thesis as well.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Agra Fort" src="http://fridh.nl/images/2013/02/IMG_0130-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Agra Fort" src="https://fridh.nl/images/2013/02/IMG_0130-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;After Agra I went by train to Jaipur during which I had a nice
 conversation with a local. She was having a puppy along, and, as long as
 the other people in the coach wouldn't mind, according to the rules the
@@ -1210,7 +1210,7 @@ was so damn noisy I couldn't get any sleep at all. And when you then get
 diarrhea as well...pfff. But before I got that I did get to see some of
 the town, but there wasn't anything special in my opinion, and therefore
 I wouldn't recommend anyone to go there.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Old city of Jaipur" src="http://fridh.nl/images/2013/02/IMG_0156-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Old city of Jaipur" src="https://fridh.nl/images/2013/02/IMG_0156-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Because of the diarrhea and fever I stayed a bit longer in Jaipur.
 Eventually I decided to go to Jodhpur even though I was still sick. The
 train ride from Jaipur to Jodhpur was I think the best moment I've had
@@ -1238,14 +1238,14 @@ train to Jaisalmer where I would like to go on a 2 or 3 day camel
 safari.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Two and a half weeks ago I arrived in Delhi. Since then I went to Agra,
 Jaipur, and Jodhpur, where I decided to stay some longer. Let's try and
 keep it chronological, and start with Agra.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Taj Mahal" src="http://fridh.nl/images/2013/02/IMG_0128-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Taj Mahal" src="https://fridh.nl/images/2013/02/IMG_0128-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I was in Agra for I think 5 nights, and the location I was staying, Saj
 Palace, was quite nice. There were plenty small restaurants and shops
 around, and the hotel had a nice view on the Taj. People came and went,
 but like me, there was a Canadian family staying a bit longer. They were
 actually on a world trip of a whopping 14 months! Anyhow, in Agra I
 finally was able to do some work on my thesis as well.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Agra Fort" src="http://fridh.nl/images/2013/02/IMG_0130-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Agra Fort" src="https://fridh.nl/images/2013/02/IMG_0130-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;After Agra I went by train to Jaipur during which I had a nice
 conversation with a local. She was having a puppy along, and, as long as
 the other people in the coach wouldn't mind, according to the rules the
@@ -1258,7 +1258,7 @@ was so damn noisy I couldn't get any sleep at all. And when you then get
 diarrhea as well...pfff. But before I got that I did get to see some of
 the town, but there wasn't anything special in my opinion, and therefore
 I wouldn't recommend anyone to go there.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Old city of Jaipur" src="http://fridh.nl/images/2013/02/IMG_0156-300x225.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Old city of Jaipur" src="https://fridh.nl/images/2013/02/IMG_0156-300x225.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Because of the diarrhea and fever I stayed a bit longer in Jaipur.
 Eventually I decided to go to Jodhpur even though I was still sick. The
 train ride from Jaipur to Jodhpur was I think the best moment I've had
@@ -1283,7 +1283,7 @@ are making me so tired, that I haven't been able to explore Jodhpur yet.
 As I will be staying for a least another 5 days in Jodhpur, that
 shouldn't be a problem though. After those five days I will take the
 train to Jaisalmer where I would like to go on a 2 or 3 day camel
-safari.&lt;/p&gt;</content><category term="india"></category></entry><entry><title>Summer in Norway</title><link href="http://fridh.nl/2012/07/21/summer-in-norway/" rel="alternate"></link><published>2012-07-21T21:50:00+02:00</published><updated>2012-07-21T21:50:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2012-07-21:/2012/07/21/summer-in-norway/</id><summary type="html">&lt;p&gt;Many that know me are aware of the fact that I am spending this summer
+safari.&lt;/p&gt;</content><category term="india"></category></entry><entry><title>Summer in Norway</title><link href="https://fridh.nl/2012/07/21/summer-in-norway/" rel="alternate"></link><published>2012-07-21T21:50:00+02:00</published><updated>2012-07-21T21:50:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2012-07-21:/2012/07/21/summer-in-norway/</id><summary type="html">&lt;p&gt;Many that know me are aware of the fact that I am spending this summer
 in Oslo, Norway. In May I was offered a position for the summer at the
 Noise &amp;amp; Vibration section at &lt;a href="http://www.dnv.com/"&gt;Det Norske Veritas&lt;/a&gt; in Høvik. Thus far I
 am quite content with the work. I've been traveling a lot across Norway
@@ -1345,13 +1345,13 @@ this is a recording from elsewhere.&lt;/p&gt;
                     frameborder='0' webkitAllowFullScreen mozallowfullscreen
                     allowFullScreen&gt;
                 &lt;/iframe&gt;
-            &lt;/span&gt;&lt;/p&gt;</content><category term="acoustics"></category><category term="norway"></category><category term="sweden"></category><category term="work"></category></entry><entry><title>Article about my 2009 internship project</title><link href="http://fridh.nl/2010/07/07/article-about-my-2009-internship-project/" rel="alternate"></link><published>2010-07-07T09:05:00+02:00</published><updated>2010-07-07T09:05:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2010-07-07:/2010/07/07/article-about-my-2009-internship-project/</id><summary type="html">&lt;p&gt;In 2009 I had an internship in DGMR and developed an acoustic measuring
+            &lt;/span&gt;&lt;/p&gt;</content><category term="acoustics"></category><category term="norway"></category><category term="sweden"></category><category term="work"></category></entry><entry><title>Article about my 2009 internship project</title><link href="https://fridh.nl/2010/07/07/article-about-my-2009-internship-project/" rel="alternate"></link><published>2010-07-07T09:05:00+02:00</published><updated>2010-07-07T09:05:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2010-07-07:/2010/07/07/article-about-my-2009-internship-project/</id><summary type="html">&lt;p&gt;In 2009 I had an internship in DGMR and developed an acoustic measuring
 system, as I described a bit &lt;a href="http://fridh.nl/projects/autonomic-acoustical-measuring-instrument/"&gt;here&lt;/a&gt;. After my internship I continued
 working on this project. Now an article has appeared about it in
 'Technisch Weekblad' and at their &lt;a href="http://www.technischweekblad.nl/special-topproject-dgmr-meet-geluid-met-onbemande.91122.lynkx"&gt;website&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In 2009 I had an internship in DGMR and developed an acoustic measuring
 system, as I described a bit &lt;a href="http://fridh.nl/projects/autonomic-acoustical-measuring-instrument/"&gt;here&lt;/a&gt;. After my internship I continued
 working on this project. Now an article has appeared about it in
-'Technisch Weekblad' and at their &lt;a href="http://www.technischweekblad.nl/special-topproject-dgmr-meet-geluid-met-onbemande.91122.lynkx"&gt;website&lt;/a&gt;.&lt;/p&gt;</content><category term="school"></category><category term="study"></category><category term="work"></category></entry><entry><title>The '59 sound</title><link href="http://fridh.nl/2009/12/20/the-59-sound/" rel="alternate"></link><published>2009-12-20T16:49:00+01:00</published><updated>2009-12-20T16:49:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2009-12-20:/2009/12/20/the-59-sound/</id><summary type="html">&lt;p&gt;&lt;span class="videobox"&gt;
+'Technisch Weekblad' and at their &lt;a href="http://www.technischweekblad.nl/special-topproject-dgmr-meet-geluid-met-onbemande.91122.lynkx"&gt;website&lt;/a&gt;.&lt;/p&gt;</content><category term="school"></category><category term="study"></category><category term="work"></category></entry><entry><title>The '59 sound</title><link href="https://fridh.nl/2009/12/20/the-59-sound/" rel="alternate"></link><published>2009-12-20T16:49:00+01:00</published><updated>2009-12-20T16:49:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:fridh.nl,2009-12-20:/2009/12/20/the-59-sound/</id><summary type="html">&lt;p&gt;&lt;span class="videobox"&gt;
                 &lt;iframe width="640" height="390"
                     src='https://www.youtube.com/embed/bOBb13yDnzo'
                     frameborder='0' webkitAllowFullScreen mozallowfullscreen
