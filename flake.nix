@@ -39,7 +39,9 @@
       name = "website";
       src = self;
       buildPhase = ''
-        cp -r ${pelican-octopress-theme} themes/pelican-octopress-theme/
+        rm -rf themes
+        mkdir -p themes
+        cp -r ${pelican-octopress-theme} themes/pelican-octopress-theme
       '';
       installPhase = ''
         pelican content --output $out
