@@ -19,7 +19,7 @@ implement one nice part of the auralisation tool, namely support for Ambisonics.
 
 Besides Chalmers I also visited SP in Borås. SP was a familar place for me as 
 well since I did an 
-[internship]({filename}/pages/thermoacoustic-refrigerator.rst) there in 2010. 
+[internship]({static}/pages/thermoacoustic-refrigerator.rst) there in 2010. 
 Earlier I had made recordings with a SoundField microphone, however, at Empa we 
 do not have an Ambisonics setup. SP has a listening room with a third order 
 Ambisonics system, giving me the possibility to listen to the first order 

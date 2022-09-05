@@ -8,7 +8,7 @@ Two and a half weeks ago I arrived in Delhi. Since then I went to Agra,
 Jaipur, and Jodhpur, where I decided to stay some longer. Let's try and
 keep it chronological, and start with Agra.
 
-![Taj Mahal]({filename}/images/2013/02/IMG_0128-300x225.jpg)
+![Taj Mahal]({static}/images/2013/02/IMG_0128-300x225.jpg)
 
 I was in Agra for I think 5 nights, and the location I was staying, Saj
 Palace, was quite nice. There were plenty small restaurants and shops
@@ -17,7 +17,7 @@ but like me, there was a Canadian family staying a bit longer. They were
 actually on a world trip of a whopping 14 months! Anyhow, in Agra I
 finally was able to do some work on my thesis as well.
 
-![Agra Fort]({filename}/images/2013/02/IMG_0130-300x225.jpg)
+![Agra Fort]({static}/images/2013/02/IMG_0130-300x225.jpg)
 
 After Agra I went by train to Jaipur during which I had a nice
 conversation with a local. She was having a puppy along, and, as long as
@@ -33,7 +33,7 @@ diarrhea as well...pfff. But before I got that I did get to see some of
 the town, but there wasn't anything special in my opinion, and therefore
 I wouldn't recommend anyone to go there.
 
-![Old city of Jaipur]({filename}/images/2013/02/IMG_0156-300x225.jpg)
+![Old city of Jaipur]({static}/images/2013/02/IMG_0156-300x225.jpg)
 
 Because of the diarrhea and fever I stayed a bit longer in Jaipur.
 Eventually I decided to go to Jodhpur even though I was still sick. The

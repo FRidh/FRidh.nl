@@ -13,8 +13,8 @@ DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'category/%s.atom.xml'
-TAG_FEED_ATOM = 'tag/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'category/{slug}.atom.xml'
+TAG_FEED_ATOM = 'tag/{slug}.atom.xml'
 
 
 ## Blogroll
@@ -39,15 +39,10 @@ ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
-
-#OUTPUT_PATH = "../FRidh.github.io"
-
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 THEME = "themes/pelican-octopress-theme"
-#THEME = "pelican-themes/fresh"
-#THEME = "/home/freddy/blog/pelican-themes/tuxlite_tbs"
 
 DEFAULT_CATEGORY = "Blog"
 
@@ -62,8 +57,7 @@ SUMMARY_MAX_LENGTH = None
 
 DEFAULT_PAGINATION = 8
 
-PLUGIN_PATHS = ['pelican-plugins',]
-PLUGINS = ['liquid_tags.youtube', 'liquid_tags.notebook']
+LIQUID_TAGS = ["youtube", "notebook"]
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}

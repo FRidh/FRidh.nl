@@ -38,9 +38,9 @@ traffic noise shielding. Basically, the shape of a rooftop can have
 great influence on how much sound is diffracted and thus how quiet a
 courtyard could potentially become.
 
-.. figure:: {filename}/images/2013/11/rooftops-300x230.png
+.. figure:: {static}/images/2013/11/rooftops-300x230.png
     :align: center
-    :target: {filename}/images/2013/11/rooftops.png
+    :target: {static}/images/2013/11/rooftops.png
     
     The importance of roof shape for road traffic
     noise shielding in the urban environment environment, T. Van Renterghem

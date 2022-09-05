@@ -31,9 +31,9 @@ school in Oud-Beijerland, `RSG de Hoefsmid`_, where I finished havo. In
 Rijswijk, nowadays `The Hague University`_, location Delft. In 2006 I
 moved to The Hague.\ 
 
-.. figure:: {filename}/images/2009/07/goudswaard4-300x225.jpg
+.. figure:: {static}/images/2009/07/goudswaard4-300x225.jpg
     :align: center
-    :target: {filename}/images/2009/07/goudswaard4.jpg
+    :target: {static}/images/2009/07/goudswaard4.jpg
     
     Several of the older houses in Goudswaard.
 
@@ -44,9 +44,9 @@ related internship, which was at `DGMR`_, a consultancy company. After
 the internship I worked there both part-time during the summer, as well
 as part-time next to my studies.\ 
 
-.. figure:: {filename}/images/2009/07/dsc023731-300x225.jpg
+.. figure:: {static}/images/2009/07/dsc023731-300x225.jpg
     :align: center
-    :target: {filename}/images/2009/07/dsc023731.jpg
+    :target: {static}/images/2009/07/dsc023731.jpg
 
     City center of The Hague.
     
@@ -58,9 +58,9 @@ big student dorm called Balder, in the small city of Borås nearby
 Gothenburg. It was also during this period that I realized I wanted to
 remain in Sweden, and continue studies in Gothenburg as well.
 
-.. figure:: {filename}/images/2009/07/small_2010-06-02_last_day_boras-300x225.jpg
+.. figure:: {static}/images/2009/07/small_2010-06-02_last_day_boras-300x225.jpg
     :align: center
-    :target: {filename}/images/2009/07/small_2010-06-02_last_day_boras.jpg
+    :target: {static}/images/2009/07/small_2010-06-02_last_day_boras.jpg
     
     Center of the small city Borås.
 
@@ -72,9 +72,9 @@ and began working full-time at DGMR, with the intention of returning to
 Sweden the next year. Back in The Hague I lived in the tallest tower of
 the city, called 'Het Strijkijzer'.
 
-.. figure:: {filename}/images/2009/07/813-300x235.jpg
+.. figure:: {static}/images/2009/07/813-300x235.jpg
     :align: center
-    :target: {filename}/images/2009/07/813.jpg
+    :target: {static}/images/2009/07/813.jpg
     
     The tower I was living in for a year.
 

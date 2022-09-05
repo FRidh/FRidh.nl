@@ -32,8 +32,8 @@ since my implementation supports reflections from buildings as well, the
 effect will also be obtained due to these reflections from facades,
 although far less pronounced.
 
-.. figure:: {filename}/images/2013/11/mirror_effect-300x226.png
+.. figure:: {static}/images/2013/11/mirror_effect-300x226.png
     :align: center
-    :target: {filename}/images/2013/11/mirror_effect.png
+    :target: {static}/images/2013/11/mirror_effect.png
     
     Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.

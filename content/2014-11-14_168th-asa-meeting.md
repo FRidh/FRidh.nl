@@ -5,7 +5,7 @@ Several weeks ago I was in Indianapolis for the [168th ASA meeting](http://acous
 for me to go to this conference was to meet fellow [VASTCON](http://vastcon.wordpress.com) members.
 
 The conference was quite a bit different from the one I attended in 
-[Krakow]({filename}/2014-09-14_forum-acusticum-2014.md). There were spaces 
+[Krakow]({static}/2014-09-14_forum-acusticum-2014.md). There were spaces 
 available that one could work, including internet connectivity, and the chairs 
 were actually comfortable. Basically every evening there were activities, 
 ranging from a visit to a museum to a Halloween party. While the conference was 

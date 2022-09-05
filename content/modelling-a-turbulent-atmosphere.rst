@@ -25,9 +25,9 @@ of these spectra are the Gaussian and von Karman spectra.
 
 The figure belows shows a portion of two turbulence spectra.
 
-.. figure:: {filename}/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png
+.. figure:: {static}/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png
     :align: center
-    :target: {filename}/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png
+    :target: {static}/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png
     
     Gaussian and Von Karman spectral densities as function of wavenumber.
 
@@ -35,17 +35,17 @@ A random turbulence field is created by the superposition of modes. The
 figure below shows the amplitude of these modes as function of
 wavenumber.
 
-.. figure:: {filename}/images/2013/12/salomons_figure_J1-300x225.png
+.. figure:: {static}/images/2013/12/salomons_figure_J1-300x225.png
     :align: center
-    :target: {filename}/images/2013/12/salomons_figure_J1.png
+    :target: {static}/images/2013/12/salomons_figure_J1.png
     
     Gaussian and Von Karman mode amplitudes as function of wavenumber.
 
 And finally a figure showing the refractive-index fluctuation. The field
 is generated using a Von Karman spectrum and 200 modes.
 
-.. figure:: {filename}/images/2013/12/VonKarman2DTempWind_field-300x225.png
+.. figure:: {static}/images/2013/12/VonKarman2DTempWind_field-300x225.png
     :align: center
-    :target: {filename}/images/2013/12/VonKarman2DTempWind_field.png
+    :target: {static}/images/2013/12/VonKarman2DTempWind_field.png
     
     Von Karmann refractive-index field.
