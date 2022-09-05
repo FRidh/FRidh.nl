@@ -39,7 +39,7 @@
       name = "website";
       src = self;
       buildPhase = ''
-        ln -s ${pelican-octopress-theme} themes/pelican-octopress-theme
+        cp -r ${pelican-octopress-theme} themes/pelican-octopress-theme/
       '';
       installPhase = ''
         pelican content --output $out
