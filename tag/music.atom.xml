@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FRidh's blog - music</title><link href="/" rel="alternate"></link><link href="/tag/music.atom.xml" rel="self"></link><id>/</id><updated>2009-12-20T16:49:00+01:00</updated><subtitle>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</subtitle><entry><title>The '59 sound</title><link href="/2009/12/20/the-59-sound/" rel="alternate"></link><published>2009-12-20T16:49:00+01:00</published><updated>2009-12-20T16:49:00+01:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:None,2009-12-20:/2009/12/20/the-59-sound/</id><content type="html">&lt;p&gt;&lt;span class="videobox"&gt;
+                    &lt;iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/bOBb13yDnzo'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen&gt;
+                    &lt;/iframe&gt;
+                &lt;/span&gt;&lt;/p&gt;</content><category term="Blog"></category><category term="music"></category></entry></feed>

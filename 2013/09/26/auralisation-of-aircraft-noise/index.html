@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>FRidh's blog - Auralisation of aircraft noise</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/category/blog.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Categories Atom Feed" />
+
+
+
+
+    <meta name="tags" content="acoustics" />
+    <meta name="tags" content="sonorus" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/2013/09/26/auralisation-of-aircraft-noise/" rel="bookmark"
+         title="Permalink to Auralisation of aircraft noise">Auralisation of aircraft noise</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2013-09-26T22:59:00+02:00">
+      Thu 26 September 2013
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+    </address>
+    <div class="category">
+        Category: <a href="/category/blog.html">Blog</a>
+    </div>
+    <div class="tags">
+        Tags:
+            <a href="/tag/acoustics.html">acoustics</a>
+            <a href="/tag/sonorus.html">sonorus</a>
+    </div>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>Almost two months ago I started working at the Swiss research institute
+Empa in Dübendorf, Switzerland, as part of a European Seventh Framework
+project called <a class="reference external" href="http://www.fp7sonorus.eu/">Sonorus</a>. The project is about urban sound planning and
+my task is to develop an aircraft noise simulator. &nbsp;The first two months
+passed really fast. It's a great place to work, and the type of work
+really fits me. Obviously I began with reading a bit about the topic and
+thinking how I would tackle the issues at hand. But very soon I began
+with implementing the first bits and mainly prototyping what I think it
+should become.</p>
+<p>The idea is that I develop an aircraft noise simulator capable of
+simulating how an aircraft pass-by sounds at a stationary receiver while
+in an urban environment. This means effects like spherical spreading,
+Doppler shift and reflections at the ground and facades have to be
+included in the propagation model. But first it is important to obtain a
+good time-frequency representation of an aircraft, and obviously these
+depend on the make or type of the aircraft as well as the conditions.
+Finally, the aircraft noise has to be reproduced using for example an
+Ambisonics setup.</p>
+<p>Now, there are quite some challenges here and 'unknowns' to be solved .
+While I have a good idea of how I will build such a tool for
+auralisation, there are many details requiring attention. An example is
+how much does turbulence in the atmosphere influence the propagation?
+How to simulate decorrelation? How to reproduce correct over-head
+information? And quite some more questions that need answering the
+coming three years :-)</p>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

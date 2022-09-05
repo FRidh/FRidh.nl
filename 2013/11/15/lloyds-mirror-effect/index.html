@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>FRidh's blog - Lloyd's mirror effect</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/category/blog.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Categories Atom Feed" />
+
+
+
+
+    <meta name="tags" content="acoustics" />
+    <meta name="tags" content="sonorus" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/2013/11/15/lloyds-mirror-effect/" rel="bookmark"
+         title="Permalink to Lloyd's mirror effect">Lloyd's mirror effect</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2013-11-15T18:12:00+01:00">
+      Fri 15 November 2013
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+    </address>
+    <div class="category">
+        Category: <a href="/category/blog.html">Blog</a>
+    </div>
+    <div class="tags">
+        Tags:
+            <a href="/tag/acoustics.html">acoustics</a>
+            <a href="/tag/sonorus.html">sonorus</a>
+    </div>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>When two waves are superimposed on each other it is possible that the
+resultant wave has a higher or lower amplitude at certain moments in
+time. This phenomenon is called interference. One classical experiment
+related to interference is Lloyd's mirror.&nbsp;In the classical experiment,
+light from a&nbsp;monochromatic&nbsp;slit source&nbsp;reflects&nbsp;from a glass surface at
+a small angle.&nbsp;The reflected light then interferes with the direct light
+from the source, forming&nbsp;interference&nbsp;fringes. This pattern is called
+Lloyd's mirror effect.</p>
+<p>In the classical experiment light is used but the same result can be
+obtained using sound waves. When a sound wave is reflected from a
+surface the reflected sound wave will also interfere with the direct
+sound wave. This phenomenon can also be experienced with aircraft noise
+due to the ground reflection. However, because an aircraft generally
+(hopefully?) moves in the sky, the interference pattern changes over the
+time.</p>
+<p>Today I managed to include this effect in my aircraft auralisation
+tool.&nbsp;The figure below shows a spectrogram of a synthesized aircraft
+passage. In the spectrogram the Doppler shift can be seen as well as
+many curves which represent interference fringes, the Lloyd's mirror
+effect. The mirror effect is in this case solely due to the ground. Now,
+since my implementation supports reflections from buildings as well, the
+effect will also be obtained due to these reflections from facades,
+although far less pronounced.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/11/mirror_effect.png"><img alt="" src="/images/2013/11/mirror_effect-300x226.png" /></a>
+<p class="caption">Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.</p>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

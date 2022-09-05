@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>FRidh's blog - Research visit to Chalmers</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/category/blog.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Categories Atom Feed" />
+
+
+
+
+    <meta name="tags" content="acoustics" />
+    <meta name="tags" content="work" />
+    <meta name="tags" content="sonorus" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/2015/02/01/research-visit-to-chalmers/" rel="bookmark"
+         title="Permalink to Research visit to Chalmers">Research visit to Chalmers</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2015-02-01T00:00:00+01:00">
+      Sun 01 February 2015
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+    </address>
+    <div class="category">
+        Category: <a href="/category/blog.html">Blog</a>
+    </div>
+    <div class="tags">
+        Tags:
+            <a href="/tag/acoustics.html">acoustics</a>
+            <a href="/tag/work.html">work</a>
+            <a href="/tag/sonorus.html">sonorus</a>
+    </div>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>After the ASA meeting in Indianapolis I went to Gothenburg again for a research 
+visit. As I wrote in my previous post it was strange to be there again. Last 
+spring I visited Gothenburg for just a couple of days, but now, staying for 
+seven weeks again is quite different. You start noticing quite a lot of things 
+have changed. Many people I knew there have moved away and I also noticed a 
+couple of restaurants I visited have closed since. Despite those things it was nice meeting old friends again.</p>
+<p>So, as I wrote in the title I went there on a research visit. The main reason 
+for my visit was to attend some courses at Chalmers but to also work on my 
+research. Initially the idea was to investigate further the model we're 
+developing to deal with atmospheric turbulence in aircraft auralisations. 
+However, in the end the courses took more time then I expected, so I didn't 
+really get to work on the turbulence model anymore. However, I did manage to 
+implement one nice part of the auralisation tool, namely support for Ambisonics. </p>
+<p>Besides Chalmers I also visited SP in Borås. SP was a familar place for me as 
+well since I did an 
+<a href="{static}/pages/thermoacoustic-refrigerator.rst">internship</a> there in 2010. 
+Earlier I had made recordings with a SoundField microphone, however, at Empa we 
+do not have an Ambisonics setup. SP has a listening room with a third order 
+Ambisonics system, giving me the possibility to listen to the first order 
+recording as well as to higher order auralisations. </p>
+<p>One visit I met up with Peter Lundén who installed the system. After some problem solving we managed to 
+get both the recordings and auralisations working. Unfortunately there was one 
+problem with the auralisations, somehow halfway the aircraft makes a U-turn. 
+While I haven't checked it any further, I think it is due to 
+the inclusion of the <a href="http://en.wikipedia.org/wiki/Ambisonic_data_exchange_formats#Polarity">Condon-Shortley phase</a> 
+in the <a href="http://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.special.sph_harm.html">function</a> I used to calculate the spherical harmonics.</p>
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

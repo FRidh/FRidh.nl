@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>FRidh's blog - acoustics tag</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/tag/acoustics.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Tags Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles tagged with acoustics</h2>
+
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2013/12/11/modelling-a-turbulent-atmosphere/" rel="bookmark" title="Permalink to Modelling a turbulent atmosphere">Modelling a turbulent atmosphere</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2013-12-11T10:35:00+01:00"> Wed 11 December 2013 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>When listening to an aircraft flying over, you can hear that the level
+and spectral contents fluctuate somewhat. These fluctuations are due to
+turbulence in the atmosphere, affecting the sound generation (variable
+load on engines) and the sound propagation. In order to create a
+plausible auralisation of aircraft noise these fluctuations have to be
+accounted for.</p>
+<p>Turbulent flow can be modeled as a superposition of a spectrum of
+fluctuations and eddies upon a mean flow.&nbsp;A common approach for noise
+predictions methods to include the effects of atmospheric turbulence is
+to use a statistical approach; generate many random 'frozen' turbulence
+fields, calculate for each of these how sound propagates through them
+and then average your results. The 'frozen' fields represent snapshots
+in time of how the atmosphere could look like. These snapshots are
+calculated based on a spectrum of fluctuations. Well known descriptions
+of these spectra are the Gaussian and von Karman spectra.</p>
+<p>The figure belows shows a portion of two turbulence spectra.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"><img alt="" src="/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /></a>
+<p class="caption">Gaussian and Von Karman spectral densities as function of wavenumber.</p>
+</div>
+<p>A random turbulence field is created by the superposition of modes. The
+figure below shows the amplitude of these modes as function of
+wavenumber.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/12/salomons_figure_J1.png"><img alt="" src="/images/2013/12/salomons_figure_J1-300x225.png" /></a>
+<p class="caption">Gaussian and Von Karman mode amplitudes as function of wavenumber.</p>
+</div>
+<p>And finally a figure showing the refractive-index fluctuation. The field
+is generated using a Von Karman spectrum and 200 modes.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/12/VonKarman2DTempWind_field.png"><img alt="" src="/images/2013/12/VonKarman2DTempWind_field-300x225.png" /></a>
+<p class="caption">Von Karmann refractive-index field.</p>
+</div>
+ </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2013/11/15/lloyds-mirror-effect/" rel="bookmark" title="Permalink to Lloyd's mirror effect">Lloyd's mirror effect</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2013-11-15T18:12:00+01:00"> Fri 15 November 2013 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>When two waves are superimposed on each other it is possible that the
+resultant wave has a higher or lower amplitude at certain moments in
+time. This phenomenon is called interference. One classical experiment
+related to interference is Lloyd's mirror.&nbsp;In the classical experiment,
+light from a&nbsp;monochromatic&nbsp;slit source&nbsp;reflects&nbsp;from a glass surface at
+a small angle.&nbsp;The reflected light then interferes with the direct light
+from the source, forming&nbsp;interference&nbsp;fringes. This pattern is called
+Lloyd's mirror effect.</p>
+<p>In the classical experiment light is used but the same result can be
+obtained using sound waves. When a sound wave is reflected from a
+surface the reflected sound wave will also interfere with the direct
+sound wave. This phenomenon can also be experienced with aircraft noise
+due to the ground reflection. However, because an aircraft generally
+(hopefully?) moves in the sky, the interference pattern changes over the
+time.</p>
+<p>Today I managed to include this effect in my aircraft auralisation
+tool.&nbsp;The figure below shows a spectrogram of a synthesized aircraft
+passage. In the spectrogram the Doppler shift can be seen as well as
+many curves which represent interference fringes, the Lloyd's mirror
+effect. The mirror effect is in this case solely due to the ground. Now,
+since my implementation supports reflections from buildings as well, the
+effect will also be obtained due to these reflections from facades,
+although far less pronounced.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/11/mirror_effect.png"><img alt="" src="/images/2013/11/mirror_effect-300x226.png" /></a>
+<p class="caption">Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.</p>
+</div>
+ </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/" rel="bookmark" title="Permalink to Project meeting of SONORUS in Ghent, Belgium">Project meeting of SONORUS in Ghent, Belgium</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2013-11-10T22:04:00+01:00"> Sun 10 November 2013 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Last week was the first winterschool of the <a class="reference external" href="http://www.fp7sonorus.eu/">SONORUS project</a>&nbsp;as well
+as a Network Meeting and this was also the first time for us, ESR's, to
+meet each other and all other partners involved in this project. SONORUS
+is an Initial Training Network under the FP7 People Programme in the
+field of Urban Sound Planning, aiming at improving the acoustic
+environment of our cities in a holistic approach. In the project, 14
+young researchers (ESR's) work together on improving the soundscape of
+several cities in conjunction with their individual research projects.</p>
+<p>On Sunday evening prior to the winterschool there was a dinner for all
+those involved in the project, a very pleasant way to get to know each
+other. On Monday morning the Network Meeting began. An introduction to
+the project was given by the project leader and the research partners
+also presented themselves. Juergen Bauer of WIT then gave a talk named
+'Urban sound planning in the bigger context' stressing the importance of
+Urban Sound Planning. That afternoon the ESR's presented themselves as
+well as the involved city partners showing their cases.</p>
+<p>Tuesday morning the winterschool truly began. From then on every day was
+packed with lectures and workshops. The winterschool dealt with urban
+sound propagation and therefore sound propagation and modelling
+technique were extensively discussed along with standard methods and the
+European Noise Directive. The winterschool was concluded on Friday with
+a small exam.</p>
+<p>A topic that briefly passed by during a presentation of Timothy van
+Renterghem seemed to have impressed me quite a bit. He briefly showed
+the results from his research on the importance of rooftops for road
+traffic noise shielding. Basically, the shape of a rooftop can have
+great influence on how much sound is diffracted and thus how quiet a
+courtyard could potentially become.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/2013/11/rooftops.png"><img alt="" src="/images/2013/11/rooftops-300x230.png" /></a>
+<p class="caption">The importance of roof shape for road traffic
+noise shielding in the urban environment environment, T. Van Renterghem
+et al., Journal of Sound and Vibration, 2010.[/caption]</p>
+</div>
+<p>The Tuesday afternoon we had an initial look together at the test cases
+and groups were formed to see how they would tackle the problems that
+were presented. Each group discussed a single test site and concluded
+the session with a presentation about their initial impressions of the
+challenge at hand.</p>
+<p>Right from the start of this week project members started discussing
+their work and how they might cooperate. Thursday after the lectures I
+gave a short presentation on tools for collaboration resulting in a
+brief discussion on the topic. While we were all too tired to go into
+the details at the time my general impression was that the&nbsp;consensus&nbsp;was
+that we should definitely look deeper into these kind of tools.</p>
+<p>All in all I think this meeting was quite fruitful and I'm looking
+forward to the next time!</p>
+ </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2013/09/26/auralisation-of-aircraft-noise/" rel="bookmark" title="Permalink to Auralisation of aircraft noise">Auralisation of aircraft noise</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2013-09-26T22:59:00+02:00"> Thu 26 September 2013 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Almost two months ago I started working at the Swiss research institute
+Empa in Dübendorf, Switzerland, as part of a European Seventh Framework
+project called <a class="reference external" href="http://www.fp7sonorus.eu/">Sonorus</a>. The project is about urban sound planning and
+my task is to develop an aircraft noise simulator. &nbsp;The first two months
+passed really fast. It's a great place to work, and the type of work
+really fits me. Obviously I began with reading a bit about the topic and
+thinking how I would tackle the issues at hand. But very soon I began
+with implementing the first bits and mainly prototyping what I think it
+should become.</p>
+<p>The idea is that I develop an aircraft noise simulator capable of
+simulating how an aircraft pass-by sounds at a stationary receiver while
+in an urban environment. This means effects like spherical spreading,
+Doppler shift and reflections at the ground and facades have to be
+included in the propagation model. But first it is important to obtain a
+good time-frequency representation of an aircraft, and obviously these
+depend on the make or type of the aircraft as well as the conditions.
+Finally, the aircraft noise has to be reproduced using for example an
+Ambisonics setup.</p>
+<p>Now, there are quite some challenges here and 'unknowns' to be solved .
+While I have a good idea of how I will build such a tool for
+auralisation, there are many details requiring attention. An example is
+how much does turbulence in the atmosphere influence the propagation?
+How to simulate decorrelation? How to reproduce correct over-head
+information? And quite some more questions that need answering the
+coming three years :-)</p>
+ </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2012/07/21/summer-in-norway/" rel="bookmark" title="Permalink to Summer in Norway">Summer in Norway</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2012-07-21T21:50:00+02:00"> Sat 21 July 2012 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Many that know me are aware of the fact that I am spending this summer
+in Oslo, Norway. In May I was offered a position for the summer at the
+Noise &amp; Vibration section at <a href="http://www.dnv.com/">Det Norske Veritas</a> in Høvik. Thus far I
+am quite content with the work. I've been traveling a lot across Norway
+for noise and vibration measurements (DNV Comfort Class) and I've
+started working on noise and vibration predictions.</p>
+<p>Oslo seems to be a nice city as well. Especially the location where I
+live; everything is basically around the corner. Commuting time is
+acceptable and nature can be reached in about half an hour.
+Unfortunately I haven't really been able to see much of the nature
+outside Oslo due to the bad weather and a bad fever last week.</p>
+<p>The coming week I am having off from work, and what way to spend it
+better than to go hiking! Monday I will take the bus/train to Liomseter
+from where I will hike for five days along the final part of
+Jotunheimstien. Last week I bought all the gear (ouch, Gore-Tex is
+expensive!!) I think I will need for this and future trips. What future
+trips, you might ask. Well, at least end of next month I intend to walk
+the <a href="Kungsleden: http://www.svenskaturistforeningen.se/en/Discover-Sweden/Facilities-and-activities/Lappland/kingstrail/">Kungsleden</a> in Sweden.</p>
+<p>Anyhow, summer thus far has been quite nice with visiting The
+Netherlands again, as well as attending <a href="http://www.hultsfredsfestivalen.se/">Hultsfredsfestivalen</a> in
+Sweden. And with the forecast of the hiking trips it only seems to
+become better :-)</p>
+<p>To end this post I have here a nice recording of the Norwegian band
+Katzenjammer, who were playing at Hultsfredsfestivalen as well, though
+this is a recording from elsewhere.</p>
+<p><span class="videobox">
+                    <iframe width="640" height="390"
+                        src='https://www.youtube.com/embed/hHcklZEi1kk'
+                        frameborder='0' webkitAllowFullScreen
+                        mozallowfullscreen allowFullScreen>
+                    </iframe>
+                </span></p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+<p class="paginator">
+        <a href="/tag/acoustics.html">&#8647;</a>
+        <a href="/tag/acoustics2.html">&laquo;</a>
+    Page 3 / 3
+</p>
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

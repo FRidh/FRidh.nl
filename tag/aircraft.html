@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>FRidh's blog - aircraft tag</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/tag/aircraft.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Tags Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles tagged with aircraft</h2>
+
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2016/04/07/research-visit-to-nasa-langley-research-center/" rel="bookmark" title="Permalink to Research visit to NASA Langley Research Center">Research visit to NASA Langley Research Center</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2016-04-07T00:00:00+02:00"> Thu 07 April 2016 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>In March I was at NASA Langley Research Center in Hampton, Virginia, for a four
+week research visit. The goal of the visit was to exchange knowledge on
+auralization of aircraft and atmospheric turbulence modeling. During this period
+we improved a model I had been working on and demonstrated that this model can
+be incorporated in the NASA Auralization Framework (NAF).</p>
+<p>I was staying with a nice family in the town of Poquoson. While I've grown up
+nearby the coast I had never lived this close to the waterside before. I like
+the strong wind and smell of salt. It was an interesting experience living in
+this part of the United States and quite unlike the places I've lived in so far.</p> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2015/08/21/synthesis-of-aircraft-emission-and-propagation/" rel="bookmark" title="Permalink to Synthesis of aircraft emission and propagation">Synthesis of aircraft emission and propagation</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2015-08-21T00:00:00+02:00"> Fri 21 August 2015 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p><em>This is a repost of a <a href="https://sonorusfp7.wordpress.com/2015/08/21/synthesis-of-aircraft-emission-and-propagation">post of mine</a> at the SONORUS blog</em></p>
+<p>In an earlier post I gave an outline of my project, and mentioned that I am 
+currently working on an aircraft emission model for auralization. Since then I 
+developed a fully automated method to extract features from aircraft recordings. </p>
+<p>The method is roughly as follows:</p>
+<ul>
+<li>Backpropagate from source to receiver in time-domain, undoing the Doppler 
+shift, atmospheric attenuation and spreading. The ground effect is ignored for 
+now. We now have a signal that roughly corresponds to what is emitted from the 
+airplane.</li>
+<li>Determine fundamental frequency. An aircraft spectrum consists mostly of noise 
+and tones, which are mostly harmonics. Knowing the fundamental frequency, allows 
+you to determine the power of not only the fundamental, but also of each 
+harmonic.</li>
+<li>And that is the final step. Determine power of the tones, and consider the 
+rest of the spectrum as noise.</li>
+</ul>
+<p>The plan is now to determine these features from a large amount of events and 
+develop a basic emission model. But before then, its important to already ask 
+the following question. Are these features sufficient to create a realistic 
+emission signal? Or, even better, are these features, taking into account the 
+developed propagation model, providing a realistic signal at the receiver? Does, 
+what you hear, really sound like an aircraft? That's in the end what we're 
+after, right.</p>
+<h2>Synthesis of emission</h2>
+<p>To test whether the obtained features are sufficient to reproduce a realistic 
+auralization, I considered a couple of events, and extracted the features for 
+each. I synthesized an emission signal by summing all these time-varying 
+components (about 200 tones and 30 1/3-octave bands), linearly interpolating the 
+samples (features were obtained every second) and smoothing the interpolated 
+components.</p>
+<p><a href="https://zenodo.org/record/28815/files/synthesis.wav">Click here</a> to listen 
+to a synthesis of the emission. It's an Airbus A320 taking of from Zurich Airport.</p>
+<p>The first part of the fragment you can hear the tonal components quite clearly 
+but in the latter part noise takes over. This is due to the directivity of the 
+components; tones generated by the fan blades radiate mostly forward.</p>
+<p>For comparison, <a href="https://zenodo.org/record/28815/files/reverted.wav">here</a> is the backpropagated signal. You'll notice it sounds very 
+different. This is because the (unwanted) ground effect is still in it. And 
+because of it, it sounds much more already like an actual aircraft fly-over!</p>
+<h2>At the receiver</h2>
+<p>So, let's listen now at a receiver at a height of 4 meters above the ground. 
+When the aircraft is closest by, the distance is about 180 meters. Here are two 
+fragments: <a href="https://zenodo.org/record/28815/files/recording.wav">fragment A</a> and 
+<a href="https://zenodo.org/record/28815/files/auralization.wav">fragment B</a>. One is a 
+full auralization, the other is a recording. Can you hear which is which?</p>
+<p><em>(hint: look at the URL in the top part of your browser if you want to know for sure)</em></p>
+<p>There are two quite noticeable differences between the recording and the 
+auralization. This specific auralization does not include the effects of 
+turbulence, and the level of the blade passing frequency is lower than it should 
+be.</p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
