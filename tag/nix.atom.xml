@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FRidh's blog - nix</title><link href="/" rel="alternate"></link><link href="/tag/nix.atom.xml" rel="self"></link><id>/</id><updated>2022-09-05T00:00:00+02:00</updated><subtitle>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</subtitle><entry><title>Parameterized and distributed calculations using the Nix package manager</title><link href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/" rel="alternate"></link><published>2022-09-05T00:00:00+02:00</published><updated>2022-09-05T00:00:00+02:00</updated><author><name>Frederik Rietdijk</name></author><id>tag:None,2022-09-05:/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/</id><content type="html">&lt;p&gt;As part of my work I regularly perform simulations. We measure the density of a
+fluid flowing through a pipe by exciting the pipe and measuring the resulting
+vibrations. We would like to know for example how sensitive we are to density,
+but also pressure and temperature. Different models are used but the analysis is
+essentially always the same: compute a frequency spectrum as function of several
+parameters, such as pipe dimensions and material properties, fluid properties
+and state variables such as pressure and temperature.&lt;/p&gt;
+&lt;p&gt;These calculations typically take quite some time, so I would like to spread the
+load across multiple machines. There are plenty of tools available for this. For
+example, in clusters one could use PBS/TORQUE. The models I am using are
+implemented in Python, and for Python there are also many tools that can be used
+for this, such as Dask, IPython Parallel and Ray.&lt;/p&gt;
+&lt;p&gt;Then, there is the question where to keep your data. One issue I always run into
+is where to store your data. You might have a folder somewhere, but then you
+need a name, an identifier. And then you change a parameter, and of course a new
+identifier is needed.&lt;/p&gt;
+&lt;p&gt;Regardless of the solution you choose, you need to set up workers on the various
+hosts you want to use, and you need to solve the naming issue. I'd like to present
+here using the Nix package manager for this purpose.&lt;/p&gt;
+&lt;p&gt;Nix is a package manager. It's primary use case is building and installing
+software. Every artifact (or store path) it creates is a function of all the
+inputs used to create it. This means it creates a unique path in case any input
+changes, be it one of your calculation parameters, or maybe your script or
+Python interpreter. It also supports remote building, and hence it becomes
+possible to distribute calculations. While it lacks in features of monitoring
+your cluster, it is a simple method for distributing work, especially when you
+already have around some machines with Nix.&lt;/p&gt;
+&lt;p&gt;I've &lt;a href="https://github.com/Acosense/nix-parameterized"&gt;published a repository&lt;/a&gt;
+with a helper function for doing parameterized calculations. The &lt;code&gt;flake.nix&lt;/code&gt; also
+shows a very simple example.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ss"&gt;compute =&lt;/span&gt; builders&lt;span class="o"&gt;.&lt;/span&gt;compute &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="ss"&gt;fixedParameters =&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="ss"&gt;a =&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;b =&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;};&lt;/span&gt;
+  &lt;span class="ss"&gt;variableParameters =&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="ss"&gt;c =&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+  &lt;span class="p"&gt;};&lt;/span&gt;
+  &lt;span class="ss"&gt;executable =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;pkgs&lt;span class="o"&gt;.&lt;/span&gt;python3&lt;span class="o"&gt;.&lt;/span&gt;interpreter&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="l"&gt;/check.py&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="ss"&gt;name =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;result.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Constant parameters are defined as well as variable parameters. A Cartesian
+product is computed over the variable parameters. The executable defined is a
+script that should take a JSON file as input containing the parameters of a
+single calculation. A name is defined for the output file or path of a single
+calculation. The result of building the derivation returned by &lt;code&gt;compute&lt;/code&gt; is a
+file listing all output files. Merging results is kept out of scope here.&lt;/p&gt;
+&lt;p&gt;Remote builders can be configured in NixOS as shown in the following snippet:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;nix&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="ss"&gt;buildMachines =&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="ss"&gt;hostName =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;192.168.210.54&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;system =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;x86_64-linux&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;maxJobs =&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;sshKey =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/root/.ssh/id_rsa&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;sshUser =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;freddy&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="ss"&gt;hostName =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;192.168.210.43&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;system =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;x86_64-linux&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;maxJobs =&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;sshKey =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/root/.ssh/id_rsa&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="ss"&gt;sshUser =&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;freddy&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;which results in a&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ cat /etc/nix/machines 
+freddy@192.168.210.54 x86_64-linux /root/.ssh/id_rsa &lt;span class="m"&gt;16&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;   -
+freddy@192.168.210.43 x86_64-linux /root/.ssh/id_rsa &lt;span class="m"&gt;8&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;   -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Note it is important to use a key without passphrase.&lt;/p&gt;</content><category term="Blog"></category><category term="nix"></category></entry></feed>

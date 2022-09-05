@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>FRidh's blog - nix tag</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+        <link href="/tag/nix.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Tags Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/projects/">Projects</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles tagged with nix</h2>
+
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/" rel="bookmark" title="Permalink to Parameterized and distributed calculations using the Nix package manager">Parameterized and distributed calculations using the Nix package manager</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2022-09-05T00:00:00+02:00"> Mon 05 September 2022 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>As part of my work I regularly perform simulations. We measure the density of a
+fluid flowing through a pipe by exciting the pipe and measuring the resulting
+vibrations. We would like to know for example how sensitive we are to density,
+but also pressure and temperature. Different models are used but the analysis is
+essentially always the same: compute a frequency spectrum as function of several
+parameters, such as pipe dimensions and material properties, fluid properties
+and state variables such as pressure and temperature.</p>
+<p>These calculations typically take quite some time, so I would like to spread the
+load across multiple machines. There are plenty of tools available for this. For
+example, in clusters one could use PBS/TORQUE. The models I am using are
+implemented in Python, and for Python there are also many tools that can be used
+for this, such as Dask, IPython Parallel and Ray.</p>
+<p>Then, there is the question where to keep your data. One issue I always run into
+is where to store your data. You might have a folder somewhere, but then you
+need a name, an identifier. And then you change a parameter, and of course a new
+identifier is needed.</p>
+<p>Regardless of the solution you choose, you need to set up workers on the various
+hosts you want to use, and you need to solve the naming issue. I'd like to present
+here using the Nix package manager for this purpose.</p>
+<p>Nix is a package manager. It's primary use case is building and installing
+software. Every artifact (or store path) it creates is a function of all the
+inputs used to create it. This means it creates a unique path in case any input
+changes, be it one of your calculation parameters, or maybe your script or
+Python interpreter. It also supports remote building, and hence it becomes
+possible to distribute calculations. While it lacks in features of monitoring
+your cluster, it is a simple method for distributing work, especially when you
+already have around some machines with Nix.</p>
+<p>I've <a href="https://github.com/Acosense/nix-parameterized">published a repository</a>
+with a helper function for doing parameterized calculations. The <code>flake.nix</code> also
+shows a very simple example.</p>
+<div class="highlight"><pre><span></span><code><span class="ss">compute =</span> builders<span class="o">.</span>compute <span class="p">{</span>
+  <span class="ss">fixedParameters =</span> <span class="p">{</span>
+    <span class="ss">a =</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="ss">b =</span> <span class="mi">2</span><span class="p">;</span>
+  <span class="p">};</span>
+  <span class="ss">variableParameters =</span> <span class="p">{</span>
+    <span class="ss">c =</span> <span class="p">[</span><span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span><span class="p">];</span>
+  <span class="p">};</span>
+  <span class="ss">executable =</span> <span class="s2">&quot;</span><span class="si">${</span>pkgs<span class="o">.</span>python3<span class="o">.</span>interpreter<span class="si">}</span><span class="s2"> </span><span class="si">${</span><span class="o">.</span><span class="l">/check.py</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span>
+  <span class="ss">name =</span> <span class="s2">&quot;result.json&quot;</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+
+<p>Constant parameters are defined as well as variable parameters. A Cartesian
+product is computed over the variable parameters. The executable defined is a
+script that should take a JSON file as input containing the parameters of a
+single calculation. A name is defined for the output file or path of a single
+calculation. The result of building the derivation returned by <code>compute</code> is a
+file listing all output files. Merging results is kept out of scope here.</p>
+<p>Remote builders can be configured in NixOS as shown in the following snippet:</p>
+<div class="highlight"><pre><span></span><code>nix<span class="o">.</span><span class="ss">buildMachines =</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="ss">hostName =</span> <span class="s2">&quot;192.168.210.54&quot;</span><span class="p">;</span>
+    <span class="ss">system =</span> <span class="s2">&quot;x86_64-linux&quot;</span><span class="p">;</span>
+    <span class="ss">maxJobs =</span> <span class="mi">16</span><span class="p">;</span>
+    <span class="ss">sshKey =</span> <span class="s2">&quot;/root/.ssh/id_rsa&quot;</span><span class="p">;</span>
+    <span class="ss">sshUser =</span> <span class="s2">&quot;freddy&quot;</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="p">{</span>
+    <span class="ss">hostName =</span> <span class="s2">&quot;192.168.210.43&quot;</span><span class="p">;</span>
+    <span class="ss">system =</span> <span class="s2">&quot;x86_64-linux&quot;</span><span class="p">;</span>
+    <span class="ss">maxJobs =</span> <span class="mi">8</span><span class="p">;</span>
+    <span class="ss">sshKey =</span> <span class="s2">&quot;/root/.ssh/id_rsa&quot;</span><span class="p">;</span>
+    <span class="ss">sshUser =</span> <span class="s2">&quot;freddy&quot;</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">];</span>
+</code></pre></div>
+
+<p>which results in a</p>
+<div class="highlight"><pre><span></span><code>$ cat /etc/nix/machines 
+freddy@192.168.210.54 x86_64-linux /root/.ssh/id_rsa <span class="m">16</span> <span class="m">1</span>   -
+freddy@192.168.210.43 x86_64-linux /root/.ssh/id_rsa <span class="m">8</span> <span class="m">1</span>   -
+</code></pre></div>
+
+<p>Note it is important to use a key without passphrase.</p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
