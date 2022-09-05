@@ -1,265 +1,750 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-        <title>FRidh's blog - Articles by Frederik Rietdijk</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
+  <meta charset="utf-8">
+  <title>Author: Frederik Rietdijk &mdash; FRidh's blog</title>
+  <meta name="author" content="Frederik Rietdijk">
+
+
+    
+<style type="text/css">
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: var(--jp-cell-editor-active-background) }
+.highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
+.highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
+.highlight .err { color: var(--jp-mirror-editor-error-color) } /* Error */
+.highlight .k { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword */
+.highlight .o { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator */
+.highlight .p { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation */
+.highlight .ch { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Preproc */
+.highlight .cpf { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Single */
+.highlight .cs { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Special */
+.highlight .kc { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Type */
+.highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
+.highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
+.highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
+.highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
+.highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
+.highlight .mh { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Hex */
+.highlight .mi { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer */
+.highlight .mo { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Oct */
+.highlight .sa { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Affix */
+.highlight .sb { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Backtick */
+.highlight .sc { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Char */
+.highlight .dl { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Delimiter */
+.highlight .sd { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Doc */
+.highlight .s2 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Double */
+.highlight .se { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Escape */
+.highlight .sh { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Heredoc */
+.highlight .si { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Interpol */
+.highlight .sx { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Other */
+.highlight .sr { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Regex */
+.highlight .s1 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Single */
+.highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
+.highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
+</style>
+
+<style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+
+div.collapseheader {
+    width=100%;
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+</style>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true,
+        displayMath: [['$$','$$'], ["\\[","\\]"]]
+    }
+});
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $("div.collapseheader").click(function () {
+    $header = $(this).children("span").first();
+    $codearea = $(this).children(".input_area");
+    console.log($(this).children());
+    $codearea.slideToggle(500, function () {
+        $header.text(function () {
+            return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+        });
+    });
+});
+});
+</script>
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="/favicon.png" rel="icon">
+
+  <link href="/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/projects/">Projects</a></li>
-        </ul></nav><!-- /#menu -->
-<section id="content">
-<h2>Articles by Frederik Rietdijk</h2>
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="/">FRidh's blog</a></h1>
+    <h2>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
 
-<ol id="post-list">
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/11/21/publishing-data-zenodo-and-figshare/" rel="bookmark" title="Permalink to Publishing data: ZENODO and figshare">Publishing data: ZENODO and figshare</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-11-21T00:00:00+01:00"> Fri 21 November 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Searching for a way to publish scientific data I found two interesting 
-platforms: <a href="http://figshare.com">figshare</a> and <a href="http://zenodo.org">ZENODO</a>.
-I've made a <a href="http://dx.doi.org/10.5281/zenodo.12664">quick comparison</a> between 
-the two platforms. For me the clear winner is ZENODO.</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/10/09/good-country/" rel="bookmark" title="Permalink to Good Country">Good Country</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-10-09T00:00:00+02:00"> Thu 09 October 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Every other day or so I watch a <a href="http://ted.com">TED talk</a> and today I
-saw a
-<a href="http://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world?language=en">talk</a>
-by Simon Anholt titled <em>Which country does the most good for the
-world?</em>.</p>
-<p>Policy advisor Simon Anholt thought of a new scale describing how much
-good a country does outside its borders, and it's called <em><a href="http://goodcountry.org/">The Good
-Country Index</a></em>. In his talk he discusses why
-countries tend to compete instead of cooperate, why this should change
-and how this could be changed. He investigated how people perceive other
-countries and he found out that the countries we like are the <em>good</em>
-countries. Good countries, what do I mean with that you might wonder.
-Well, if you want to have an answer on that I suggest watching the talk!</p>
-<p><span class="videobox">
-                    <iframe width="640" height="390"
-                        src='https://www.youtube.com/embed/1X7fZoDs9KU'
-                        frameborder='0' webkitAllowFullScreen
-                        mozallowfullscreen allowFullScreen>
-                    </iframe>
-                </span></p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/10/05/mdwiki-a-wiki-using-markdown/" rel="bookmark" title="Permalink to mdwiki: a Wiki using Markdown">mdwiki: a Wiki using Markdown</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-10-05T00:00:00+02:00"> Sun 05 October 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Some time ago I encountered
-<a href="http://dynalon.github.io/mdwiki/#!index.md">mdwiki</a>, a Wiki which is
-processed entirely client-side. In short:</p>
-<ol>
-<li>Download <code>mdwiki.html</code>, put it in the root of your site, and rename
-    it to <code>index.html</code></li>
-<li>Add <code>index.md</code> which you use as your index page. Write content in
-    your favorite formatting syntax, Markdown :-)</li>
-<li>Optionally add a
-    <a href="http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation"><code>navigation.md</code></a>
-    for a navigation bar.</li>
-<li>Add any other Markdown file.</li>
-</ol>
-<p>It doesn't have many features but in my opinion it doesn't have to. It's
-great for quickly publishing ideas or content without bothering too much
-yet with layout and looks. Now, that doesn't mean it's not possible to
-make nice looking sites as can be seen in the
-<a href="http://dynalon.github.io/mdwiki/#!examples.md">examples</a>. Also, features
-can be added using
-<a href="http://dynalon.github.io/mdwiki/#!gimmicks.md">gimmicks</a>. Examples of
-added functionality are the parsing of equations, embedding Google Maps
-and YouTube video's.</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/10/05/race-against-the-machine/" rel="bookmark" title="Permalink to Race Against The Machine">Race Against The Machine</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-10-05T00:00:00+02:00"> Sun 05 October 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Last year I saw <a href="http://www.ted.com/talks/erik_brynjolfsson_the_key_to_growth_race_em_with_em_the_machines">this TED talk</a>
-by <a href="http://en.wikipedia.org/wiki/Erik_Brynjolfsson">Erik Brynjolfsson</a>
-on how we should handle the digital revolution. In 2011 he wrote <em>Race
-Against the Machine</em> together with <a href="http://en.wikipedia.org/wiki/Andrew_McAfee">Andrew McAfee</a> and last week I
-finally got to reading it (okay I admit, I completely forgot it was on
-my to read list). It's a good book and I strongly recommend it. The
-digital revolution is happening, things are changing and a lot of people
-can't keep up with it. Next up, <em>The Second Machine Age</em>, another book
-by Brynjolfsson and McAfee.</p>
-<p><span class="videobox">
-                    <iframe width="640" height="390"
-                        src='https://www.youtube.com/embed/sod-eJBf9Y0'
-                        frameborder='0' webkitAllowFullScreen
-                        mozallowfullscreen allowFullScreen>
-                    </iframe>
-                </span></p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/09/14/forum-acusticum-2014-krakow/" rel="bookmark" title="Permalink to Forum Acusticum 2014, Krakow">Forum Acusticum 2014, Krakow</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-09-14T00:00:00+02:00"> Sun 14 September 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Last week the conference <a href="http://fa2014.pl">Forum Acusticum 2014</a> took
-place in the city of Krakow, Poland. From Monday till Friday there were
-presentations as well as meetings of technical committees. The
-presentations covered a wide range of topics like structural acoustics,
-human response and auralisation.</p>
-<p>A special session was organised on Urban Sound Planning as well, in
-which many of my <a href="http://www.fp7sonorus.eu/">project members</a> presented
-their current work. I'm glad a lot of people attended the session.</p>
-<p>I gave a presentation with the title <em>Modelling sound propagation in the
-presence of turbulence for the auralisation of aircraft noise</em> in a
-session on Environmental Acoustics. This session was Friday morning
-early, which was a bit unfortunate, considering there was a nice party
-with the <a href="https://www.euracoustics.org/activities/yan">Young Acousticians Network</a> the evening
-before. I was surprised there were still so many people that morning!</p>
-<p>On Thursday I joined a discussion on benchmarking for computational
-acoustics. When implementing a model you would like to be able to
-validate this. This can sometimes be difficult due to lack of available
-information or benchmarks. Therefore, the idea is now to put online some
-kind of repository where people can put their benchmarks. Considering
-this is a topic of interest in other fields of science I am really
-curious how they deal with this.</p>
-<p>The city of Krakow surprised me a lot. It's quite a green city and there
-seems to be a good and relaxed mood. There's plenty of pubs and
-restaurants, especially around the main square which is huge.</p>
-<p>Anyway, that's my summary on FA2014!</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/04/07/back-in-gothenburg-for-sonorus/" rel="bookmark" title="Permalink to Back in Gothenburg for SONORUS">Back in Gothenburg for SONORUS</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-04-07T00:00:00+02:00"> Mon 07 April 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Last month I was back in Gothenburg for a week and it was nice! I've
-been living in Gothenburg for close to two years and being back there
-brought up some good memories. The reason I was there again was that we
-had a course for <a href="http://www.fp7sonorus.eu/">SONORUS</a> on leadership.</p>
-<p>In the course we treated topics like communication, knowledge, coaching,
-group dynamics and decision making. There was one very interesting
-exercise on group dynamics. In 20 minutes the entire group had to agree
-on a list of statements related to meetings. We also <a href="http://www.ted.com/talks/tom_wujec_build_a_tower">built a
-tower</a> using dry
-spaghetti, a meter of tape and a marshmallow, or at least we tried!</p>
-<p>Besides the course we spent time on some practical matters in the
-project, like discussing how we would cooperate, e.g. with regards to
-sharing data. Another topic that was discussed is the upcoming
-<a href="http://www.chchearing.org/noise-center-home/international-noise-awareness-day">International Noise Awareness Day</a>,
-but more about that later!</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/04/07/sparse-arrays-in-python/" rel="bookmark" title="Permalink to Sparse arrays in Python">Sparse arrays in Python</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-04-07T00:00:00+02:00"> Mon 07 April 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Numpy offers dense arrays and both <a href="http://www.numpy.org/">Numpy</a> and
-<a href="http://scipy.org/">Scipy</a> offer sparse matrices. However, they don't
-offer any sparse array solution. On the web I found some implementations
-of sparse arrays but they were generally quite limited:</p>
-<ul>
-<li><a href="https://launchpad.net/ndsparse">ndsparse</a> operators only support
-    scalars</li>
-<li><a href="http://www.maths.lth.se/matematiklth/personal/solem/downloads/sparray.py">sparray</a>
-    operators only support other sparse arrays</li>
-</ul>
-<p>What I would like to do is replace in some of my calculations certain
-dense arrays with sparse arrays. Numpy compatibility is therefore
-important. A first version can be found
-<a href="https://github.com/FRidh/sparse">here</a>.</p>
-<p>What works?</p>
-<ul>
-<li>The basic operators work with scalars, sparse arrays and dense
-    arrays.</li>
-<li>Basic slicing is partially supported. newaxis, None, slice and
-    Ellipsis aren't really supported yet.</li>
-<li>Converting from dense to sparse and vice versa</li>
-</ul>
-<p>What's left to do?</p>
-<ul>
-<li>Finish basic slicing</li>
-<li>In-place operators</li>
-<li>Advanced slicing</li>
-<li>Enforcing dtype</li>
-<li>Cythonize</li>
-</ul>
-<p>Because I was curious I Cythonized it quickly. While it is much much
-faster than the plain Python implementation it still is about a factor
-1000 slower than dense arrays when operatoring with a dense array.
-Unfortunately this is too slow for my use case, so for now I reverted to
-using dense arrays but with a reduced model size. Nevertheless I am sure
-there is a significant performance increase possible.</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/03/09/planet-acoustics/" rel="bookmark" title="Permalink to Planet Acoustics">Planet Acoustics</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-03-09T19:05:00+01:00"> Sun 09 March 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Recently I set up a new <a href="http://planetplanet.org">Planet</a> aimed at acousticians called 
-<a href="http://planetacoustics.org">Planet Acoustics</a>. A Planet is basically a <a href="http://en.wikipedia.org/wiki/Web_syndication">feed</a> reader; it downloads news feeds 
-published by web sites and aggregates their content together into a single 
-combined feed. The purpose of this Planet is to collect blogs and news by and 
-for acousticians.</p>
-<p>Planets are very popular in the open-source software development world. Planets 
-like <a href="http://planetkde.org">Planet KDE</a>, <a href="http://planet.debian.org">Planet Debian</a>, <a href="http://planet.python.org">Planet Python</a> and <a href="http://planet.scipy.org">Planet SciPy</a> syndicate 
-posts from many people all over the world who write posts related to 
-respectively <a href="http://kde.org">KDE</a>, the <a href="http://debian.org">Debian</a> project, <a href="http://python.org">Python</a> programming language and the 
-Python module <a href="http://scipy.org">SciPy</a>.</p>
-<p>The posts on such a Planet give a good overview of which efforts are currently 
-taking place. Contrary to news posts, press releases or journal articles they 
-are informal. People write about their current work, problems they face, events 
-they attend and often share nice tips and tricks or even detailed tutorials.</p>
-<p>I hope that <a href="http://planetacoustics.org">Planet Acoustics</a> will become a Planet with many nice posts regarding acoustics and the life of acousticians.
-If you would like to have your posts syndicated, then please send an e-mail to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#109;&#105;&#110;&#64;&#112;&#108;&#97;&#110;&#101;&#116;&#97;&#99;&#111;&#117;&#115;&#116;&#105;&#99;&#115;&#46;&#111;&#114;&#103;">&#97;&#100;&#109;&#105;&#110;&#64;&#112;&#108;&#97;&#110;&#101;&#116;&#97;&#99;&#111;&#117;&#115;&#116;&#105;&#99;&#115;&#46;&#111;&#114;&#103;</a> with your name and a link to your <a href="http://en.wikipedia.org/wiki/Atom_(standard)">Atom</a> or <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> feed.
-Hopefully, in time, Planet Acoustics will become just as successfull as those Planets I referred to :-)</p> </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="/author/frederik-rietdijk.html">&#8647;</a>
-        <a href="/author/frederik-rietdijk2.html">&laquo;</a>
-    Page 3 / 5
-        <a href="/author/frederik-rietdijk4.html">&raquo;</a>
-        <a href="/author/frederik-rietdijk5.html">&#8649;</a>
-</p>
-</section><!-- /#content -->
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+	<article role="article">
+    	<header>
+    		<h1 class="entry-title">Author: Frederik Rietdijk</h1>
+    	</header>
+
+    	<div id="blog-archives">
+            <h2>2022</h2>
+                    <article>
+                        <h1><a href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/">Parameterized and distributed calculations using the Nix package manager</a></h1>
+                        <time datetime="2022-09-05 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">05</span>
+                            <span class="year">2022</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2018</h2>
+                    <article>
+                        <h1><a href="/2018/03/11/finished-phd/">Finished PhD</a></h1>
+                        <time datetime="2018-03-11 00:00:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">11</span>
+                            <span class="year">2018</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2016</h2>
+                    <article>
+                        <h1><a href="/2016/09/17/urban-sound-planning-symposium/">Urban Sound Planning Symposium</a></h1>
+                        <time datetime="2016-09-17 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">17</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2016/04/07/research-visit-to-nasa-langley-research-center/">Research visit to NASA Langley Research Center</a></h1>
+                        <time datetime="2016-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2016/04/06/sonorus-update/">SONORUS update</a></h1>
+                        <time datetime="2016-04-06 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">06</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2015</h2>
+                    <article>
+                        <h1><a href="/2015/08/21/synthesis-of-aircraft-emission-and-propagation/">Synthesis of aircraft emission and propagation</a></h1>
+                        <time datetime="2015-08-21 00:00:00+02:00" pubdate>
+                            <span class="month">Aug</span>
+                            <span class="day">21</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/06/04/euronoise-slides/">Euronoise slides</a></h1>
+                        <time datetime="2015-06-04 00:00:00+02:00" pubdate>
+                            <span class="month">Jun</span>
+                            <span class="day">04</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/">Swiss Air Force demonstrations in Duebendorf</a></h1>
+                        <time datetime="2015-05-19 00:00:00+02:00" pubdate>
+                            <span class="month">May</span>
+                            <span class="day">19</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/05/09/development-of-an-emission-model/">Development of an emission model</a></h1>
+                        <time datetime="2015-05-09 00:00:00+02:00" pubdate>
+                            <span class="month">May</span>
+                            <span class="day">09</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/04/29/sonorus-meeting-in-naples/">SONORUS meeting in Naples</a></h1>
+                        <time datetime="2015-04-29 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">29</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/04/28/paper-at-euronoise/">Paper at Euronoise</a></h1>
+                        <time datetime="2015-04-28 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">28</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/03/27/slides-on-zenodo/">Slides on Zenodo</a></h1>
+                        <time datetime="2015-03-27 00:00:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">27</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/02/01/auralization-doppler-effect/">Auralization: Doppler effect</a></h1>
+                        <time datetime="2015-02-01 00:00:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/02/01/research-visit-to-chalmers/">Research visit to Chalmers</a></h1>
+                        <time datetime="2015-02-01 00:00:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2014</h2>
+                    <article>
+                        <h1><a href="/2014/11/21/168th-asa-meeting/">168th ASA meeting</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/11/21/posters-and-slides-about-my-project/">Posters and slides about my project</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/11/21/publishing-data-zenodo-and-figshare/">Publishing data: ZENODO and figshare</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/09/good-country/">Good Country</a></h1>
+                        <time datetime="2014-10-09 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/05/mdwiki-a-wiki-using-markdown/">mdwiki: a Wiki using Markdown</a></h1>
+                        <time datetime="2014-10-05 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">05</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/05/race-against-the-machine/">Race Against The Machine</a></h1>
+                        <time datetime="2014-10-05 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">05</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/09/14/forum-acusticum-2014-krakow/">Forum Acusticum 2014, Krakow</a></h1>
+                        <time datetime="2014-09-14 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">14</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/04/07/back-in-gothenburg-for-sonorus/">Back in Gothenburg for SONORUS</a></h1>
+                        <time datetime="2014-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/04/07/sparse-arrays-in-python/">Sparse arrays in Python</a></h1>
+                        <time datetime="2014-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/03/09/planet-acoustics/">Planet Acoustics</a></h1>
+                        <time datetime="2014-03-09 19:05:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/03/09/blogging-with-pelican/">Blogging with Pelican</a></h1>
+                        <time datetime="2014-03-09 18:20:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2013</h2>
+                    <article>
+                        <h1><a href="/2013/12/11/modelling-a-turbulent-atmosphere/">Modelling a turbulent atmosphere</a></h1>
+                        <time datetime="2013-12-11 10:35:00+01:00" pubdate>
+                            <span class="month">Dec</span>
+                            <span class="day">11</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/11/15/lloyds-mirror-effect/">Lloyd's mirror effect</a></h1>
+                        <time datetime="2013-11-15 18:12:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">15</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/">Project meeting of SONORUS in Ghent, Belgium</a></h1>
+                        <time datetime="2013-11-10 22:04:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">10</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/09/26/auralisation-of-aircraft-noise/">Auralisation of aircraft noise</a></h1>
+                        <time datetime="2013-09-26 22:59:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">26</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/06/29/final-weeks-in-india/">Final weeks in India</a></h1>
+                        <time datetime="2013-06-29 13:42:00+02:00" pubdate>
+                            <span class="month">Jun</span>
+                            <span class="day">29</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/04/25/holi-and-mcleod-ganj/">Holi and McLeod Ganj</a></h1>
+                        <time datetime="2013-04-25 12:46:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">25</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/02/14/jodhpur/">Jodhpur!</a></h1>
+                        <time datetime="2013-02-14 06:04:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">14</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/02/02/agra-jaipur-and-now-jodhpur/">Agra, Jaipur and now Jodhpur</a></h1>
+                        <time datetime="2013-02-02 08:09:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">02</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2012</h2>
+                    <article>
+                        <h1><a href="/2012/07/21/summer-in-norway/">Summer in Norway</a></h1>
+                        <time datetime="2012-07-21 21:50:00+02:00" pubdate>
+                            <span class="month">Jul</span>
+                            <span class="day">21</span>
+                            <span class="year">2012</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2010</h2>
+                    <article>
+                        <h1><a href="/2010/07/07/article-about-my-2009-internship-project/">Article about my 2009 internship project</a></h1>
+                        <time datetime="2010-07-07 09:05:00+02:00" pubdate>
+                            <span class="month">Jul</span>
+                            <span class="day">07</span>
+                            <span class="year">2010</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2009</h2>
+                    <article>
+                        <h1><a href="/2009/12/20/the-59-sound/">The '59 sound</a></h1>
+                        <time datetime="2009-12-20 16:49:00+01:00" pubdate>
+                            <span class="month">Dec</span>
+                            <span class="day">20</span>
+                            <span class="year">2009</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+	    </div>
+    </article>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/">Parameterized and distributed calculations using the Nix package manager</a>
+      </li>
+      <li class="post">
+          <a href="/2018/03/11/finished-phd/">Finished PhD</a>
+      </li>
+      <li class="post">
+          <a href="/2016/09/17/urban-sound-planning-symposium/">Urban Sound Planning Symposium</a>
+      </li>
+      <li class="post">
+          <a href="/2016/04/07/research-visit-to-nasa-langley-research-center/">Research visit to NASA Langley Research Center</a>
+      </li>
+      <li class="post">
+          <a href="/2016/04/06/sonorus-update/">SONORUS update</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="/category/blog.html">Blog</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="/tag/nix.html">nix</a>,    <a href="/tag/acoustics.html">acoustics</a>,    <a href="/tag/sonorus.html">sonorus</a>,    <a href="/tag/aircraft.html">aircraft</a>,    <a href="/tag/urban-planning.html">urban planning</a>,    <a href="/tag/work.html">work</a>,    <a href="/tag/python.html">python</a>,    <a href="/tag/hiking.html">hiking</a>,    <a href="/tag/holiday.html">holiday</a>,    <a href="/tag/sweden.html">sweden</a>,    <a href="/tag/india.html">india</a>,    <a href="/tag/study.html">study</a>,    <a href="/tag/norway.html">norway</a>,    <a href="/tag/school.html">school</a>,    <a href="/tag/music.html">music</a>  </section>
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = '/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'FRidh',
+              count: 5,
+              skip_forks: false,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2009&ndash;2022  Frederik Rietdijk &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="/theme/js/modernizr-2.0.js"></script>
+  <script src="/theme/js/ender.js"></script>
+  <script src="/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'fridhnl';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
 </body>
 </html>

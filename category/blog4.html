@@ -1,378 +1,763 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-        <title>FRidh's blog - Blog category</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Full Atom Feed" />
-        <link href="/category/blog.atom.xml" type="application/atom+xml" rel="alternate" title="FRidh's blog Categories Atom Feed" />
+  <meta charset="utf-8">
+  <title>Category: Blog &mdash; FRidh's blog</title>
+  <meta name="author" content="Frederik Rietdijk">
+
+
+    
+<style type="text/css">
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: var(--jp-cell-editor-active-background) }
+.highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
+.highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
+.highlight .err { color: var(--jp-mirror-editor-error-color) } /* Error */
+.highlight .k { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword */
+.highlight .o { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator */
+.highlight .p { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation */
+.highlight .ch { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Preproc */
+.highlight .cpf { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Single */
+.highlight .cs { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment.Special */
+.highlight .kc { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: var(--jp-mirror-editor-keyword-color); font-weight: bold } /* Keyword.Type */
+.highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
+.highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
+.highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
+.highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
+.highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
+.highlight .mh { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Hex */
+.highlight .mi { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer */
+.highlight .mo { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Oct */
+.highlight .sa { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Affix */
+.highlight .sb { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Backtick */
+.highlight .sc { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Char */
+.highlight .dl { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Delimiter */
+.highlight .sd { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Doc */
+.highlight .s2 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Double */
+.highlight .se { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Escape */
+.highlight .sh { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Heredoc */
+.highlight .si { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Interpol */
+.highlight .sx { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Other */
+.highlight .sr { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Regex */
+.highlight .s1 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Single */
+.highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
+.highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
+</style>
+
+<style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+
+div.collapseheader {
+    width=100%;
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+</style>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true,
+        displayMath: [['$$','$$'], ["\\[","\\]"]]
+    }
+});
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $("div.collapseheader").click(function () {
+    $header = $(this).children("span").first();
+    $codearea = $(this).children(".input_area");
+    console.log($(this).children());
+    $codearea.slideToggle(500, function () {
+        $header.text(function () {
+            return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+        });
+    });
+});
+});
+</script>
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="/favicon.png" rel="icon">
+
+  <link href="/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">FRidh's blog <strong>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/projects/">Projects</a></li>
-        </ul></nav><!-- /#menu -->
-<section id="content">
-<h2>Articles in the Blog category</h2>
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="/">FRidh's blog</a></h1>
+    <h2>Discovery consists of seeing what everybody has seen and thinking what nobody has thought -- Albert Szent-Gyorgyi</h2>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
 
-<ol id="post-list">
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2014/03/09/blogging-with-pelican/" rel="bookmark" title="Permalink to Blogging with Pelican">Blogging with Pelican</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2014-03-09T18:20:00+01:00"> Sun 09 March 2014 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Joining many others I've just switched my blog from Wordpress to Pelican. Writing posts in Markdown or ReStructuredText and no more Wordpress upgrades, yay :-)</p> </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/12/11/modelling-a-turbulent-atmosphere/" rel="bookmark" title="Permalink to Modelling a turbulent atmosphere">Modelling a turbulent atmosphere</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-12-11T10:35:00+01:00"> Wed 11 December 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>When listening to an aircraft flying over, you can hear that the level
-and spectral contents fluctuate somewhat. These fluctuations are due to
-turbulence in the atmosphere, affecting the sound generation (variable
-load on engines) and the sound propagation. In order to create a
-plausible auralisation of aircraft noise these fluctuations have to be
-accounted for.</p>
-<p>Turbulent flow can be modeled as a superposition of a spectrum of
-fluctuations and eddies upon a mean flow.&nbsp;A common approach for noise
-predictions methods to include the effects of atmospheric turbulence is
-to use a statistical approach; generate many random 'frozen' turbulence
-fields, calculate for each of these how sound propagates through them
-and then average your results. The 'frozen' fields represent snapshots
-in time of how the atmosphere could look like. These snapshots are
-calculated based on a spectrum of fluctuations. Well known descriptions
-of these spectra are the Gaussian and von Karman spectra.</p>
-<p>The figure belows shows a portion of two turbulence spectra.</p>
-<div class="figure align-center">
-<a class="reference external image-reference" href="/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density.png"><img alt="" src="/images/2013/12/Gaussian2DTempWind_and_VonKarman2DTempWind_spectral_density-300x225.png" /></a>
-<p class="caption">Gaussian and Von Karman spectral densities as function of wavenumber.</p>
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+	<article role="article">
+    	<header>
+    		<h1 class="entry-title">Category: Blog</h1>
+    	</header>
+
+    	<div id="blog-archives">
+            <h2>2022</h2>
+                    <article>
+                        <h1><a href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/">Parameterized and distributed calculations using the Nix package manager</a></h1>
+                        <time datetime="2022-09-05 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">05</span>
+                            <span class="year">2022</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2018</h2>
+                    <article>
+                        <h1><a href="/2018/03/11/finished-phd/">Finished PhD</a></h1>
+                        <time datetime="2018-03-11 00:00:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">11</span>
+                            <span class="year">2018</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2016</h2>
+                    <article>
+                        <h1><a href="/2016/09/17/urban-sound-planning-symposium/">Urban Sound Planning Symposium</a></h1>
+                        <time datetime="2016-09-17 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">17</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2016/04/07/research-visit-to-nasa-langley-research-center/">Research visit to NASA Langley Research Center</a></h1>
+                        <time datetime="2016-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2016/04/06/sonorus-update/">SONORUS update</a></h1>
+                        <time datetime="2016-04-06 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">06</span>
+                            <span class="year">2016</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2015</h2>
+                    <article>
+                        <h1><a href="/2015/08/21/synthesis-of-aircraft-emission-and-propagation/">Synthesis of aircraft emission and propagation</a></h1>
+                        <time datetime="2015-08-21 00:00:00+02:00" pubdate>
+                            <span class="month">Aug</span>
+                            <span class="day">21</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/06/04/euronoise-slides/">Euronoise slides</a></h1>
+                        <time datetime="2015-06-04 00:00:00+02:00" pubdate>
+                            <span class="month">Jun</span>
+                            <span class="day">04</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/05/19/swiss-air-force-demonstrations-in-duebendorf/">Swiss Air Force demonstrations in Duebendorf</a></h1>
+                        <time datetime="2015-05-19 00:00:00+02:00" pubdate>
+                            <span class="month">May</span>
+                            <span class="day">19</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/05/09/development-of-an-emission-model/">Development of an emission model</a></h1>
+                        <time datetime="2015-05-09 00:00:00+02:00" pubdate>
+                            <span class="month">May</span>
+                            <span class="day">09</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/04/29/sonorus-meeting-in-naples/">SONORUS meeting in Naples</a></h1>
+                        <time datetime="2015-04-29 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">29</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/04/28/paper-at-euronoise/">Paper at Euronoise</a></h1>
+                        <time datetime="2015-04-28 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">28</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/03/27/slides-on-zenodo/">Slides on Zenodo</a></h1>
+                        <time datetime="2015-03-27 00:00:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">27</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/02/01/auralization-doppler-effect/">Auralization: Doppler effect</a></h1>
+                        <time datetime="2015-02-01 00:00:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2015/02/01/research-visit-to-chalmers/">Research visit to Chalmers</a></h1>
+                        <time datetime="2015-02-01 00:00:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">01</span>
+                            <span class="year">2015</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2014</h2>
+                    <article>
+                        <h1><a href="/2014/11/21/168th-asa-meeting/">168th ASA meeting</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/11/21/posters-and-slides-about-my-project/">Posters and slides about my project</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/11/21/publishing-data-zenodo-and-figshare/">Publishing data: ZENODO and figshare</a></h1>
+                        <time datetime="2014-11-21 00:00:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">21</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/09/good-country/">Good Country</a></h1>
+                        <time datetime="2014-10-09 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/05/mdwiki-a-wiki-using-markdown/">mdwiki: a Wiki using Markdown</a></h1>
+                        <time datetime="2014-10-05 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">05</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/10/05/race-against-the-machine/">Race Against The Machine</a></h1>
+                        <time datetime="2014-10-05 00:00:00+02:00" pubdate>
+                            <span class="month">Oct</span>
+                            <span class="day">05</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/09/14/forum-acusticum-2014-krakow/">Forum Acusticum 2014, Krakow</a></h1>
+                        <time datetime="2014-09-14 00:00:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">14</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/04/07/back-in-gothenburg-for-sonorus/">Back in Gothenburg for SONORUS</a></h1>
+                        <time datetime="2014-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/04/07/sparse-arrays-in-python/">Sparse arrays in Python</a></h1>
+                        <time datetime="2014-04-07 00:00:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">07</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/03/09/planet-acoustics/">Planet Acoustics</a></h1>
+                        <time datetime="2014-03-09 19:05:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2014/03/09/blogging-with-pelican/">Blogging with Pelican</a></h1>
+                        <time datetime="2014-03-09 18:20:00+01:00" pubdate>
+                            <span class="month">Mar</span>
+                            <span class="day">09</span>
+                            <span class="year">2014</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2013</h2>
+                    <article>
+                        <h1><a href="/2013/12/11/modelling-a-turbulent-atmosphere/">Modelling a turbulent atmosphere</a></h1>
+                        <time datetime="2013-12-11 10:35:00+01:00" pubdate>
+                            <span class="month">Dec</span>
+                            <span class="day">11</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/11/15/lloyds-mirror-effect/">Lloyd's mirror effect</a></h1>
+                        <time datetime="2013-11-15 18:12:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">15</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/">Project meeting of SONORUS in Ghent, Belgium</a></h1>
+                        <time datetime="2013-11-10 22:04:00+01:00" pubdate>
+                            <span class="month">Nov</span>
+                            <span class="day">10</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/09/26/auralisation-of-aircraft-noise/">Auralisation of aircraft noise</a></h1>
+                        <time datetime="2013-09-26 22:59:00+02:00" pubdate>
+                            <span class="month">Sep</span>
+                            <span class="day">26</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/07/18/kungsleden/">Kungsleden - From Abisko to Nikkaluokta</a></h1>
+                        <time datetime="2013-07-18 14:37:00+02:00" pubdate>
+                            <span class="month">Jul</span>
+                            <span class="day">18</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/06/29/final-weeks-in-india/">Final weeks in India</a></h1>
+                        <time datetime="2013-06-29 13:42:00+02:00" pubdate>
+                            <span class="month">Jun</span>
+                            <span class="day">29</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/04/25/holi-and-mcleod-ganj/">Holi and McLeod Ganj</a></h1>
+                        <time datetime="2013-04-25 12:46:00+02:00" pubdate>
+                            <span class="month">Apr</span>
+                            <span class="day">25</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/02/14/jodhpur/">Jodhpur!</a></h1>
+                        <time datetime="2013-02-14 06:04:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">14</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+                    <article>
+                        <h1><a href="/2013/02/02/agra-jaipur-and-now-jodhpur/">Agra, Jaipur and now Jodhpur</a></h1>
+                        <time datetime="2013-02-02 08:09:00+01:00" pubdate>
+                            <span class="month">Feb</span>
+                            <span class="day">02</span>
+                            <span class="year">2013</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2012</h2>
+                    <article>
+                        <h1><a href="/2012/07/21/summer-in-norway/">Summer in Norway</a></h1>
+                        <time datetime="2012-07-21 21:50:00+02:00" pubdate>
+                            <span class="month">Jul</span>
+                            <span class="day">21</span>
+                            <span class="year">2012</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2010</h2>
+                    <article>
+                        <h1><a href="/2010/07/07/article-about-my-2009-internship-project/">Article about my 2009 internship project</a></h1>
+                        <time datetime="2010-07-07 09:05:00+02:00" pubdate>
+                            <span class="month">Jul</span>
+                            <span class="day">07</span>
+                            <span class="year">2010</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+            <h2>2009</h2>
+                    <article>
+                        <h1><a href="/2009/12/20/the-59-sound/">The '59 sound</a></h1>
+                        <time datetime="2009-12-20 16:49:00+01:00" pubdate>
+                            <span class="month">Dec</span>
+                            <span class="day">20</span>
+                            <span class="year">2009</span>
+                        </time>
+                        <footer>
+                            <span class="categories">posted in
+                                <a class='category' href='/category/blog.html'>Blog</a>
+                            </span>
+                        </footer>
+                    </article>
+	    </div>
+    </article>
 </div>
-<p>A random turbulence field is created by the superposition of modes. The
-figure below shows the amplitude of these modes as function of
-wavenumber.</p>
-<div class="figure align-center">
-<a class="reference external image-reference" href="/images/2013/12/salomons_figure_J1.png"><img alt="" src="/images/2013/12/salomons_figure_J1-300x225.png" /></a>
-<p class="caption">Gaussian and Von Karman mode amplitudes as function of wavenumber.</p>
-</div>
-<p>And finally a figure showing the refractive-index fluctuation. The field
-is generated using a Von Karman spectrum and 200 modes.</p>
-<div class="figure align-center">
-<a class="reference external image-reference" href="/images/2013/12/VonKarman2DTempWind_field.png"><img alt="" src="/images/2013/12/VonKarman2DTempWind_field-300x225.png" /></a>
-<p class="caption">Von Karmann refractive-index field.</p>
-</div>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/11/15/lloyds-mirror-effect/" rel="bookmark" title="Permalink to Lloyd's mirror effect">Lloyd's mirror effect</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-11-15T18:12:00+01:00"> Fri 15 November 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>When two waves are superimposed on each other it is possible that the
-resultant wave has a higher or lower amplitude at certain moments in
-time. This phenomenon is called interference. One classical experiment
-related to interference is Lloyd's mirror.&nbsp;In the classical experiment,
-light from a&nbsp;monochromatic&nbsp;slit source&nbsp;reflects&nbsp;from a glass surface at
-a small angle.&nbsp;The reflected light then interferes with the direct light
-from the source, forming&nbsp;interference&nbsp;fringes. This pattern is called
-Lloyd's mirror effect.</p>
-<p>In the classical experiment light is used but the same result can be
-obtained using sound waves. When a sound wave is reflected from a
-surface the reflected sound wave will also interfere with the direct
-sound wave. This phenomenon can also be experienced with aircraft noise
-due to the ground reflection. However, because an aircraft generally
-(hopefully?) moves in the sky, the interference pattern changes over the
-time.</p>
-<p>Today I managed to include this effect in my aircraft auralisation
-tool.&nbsp;The figure below shows a spectrogram of a synthesized aircraft
-passage. In the spectrogram the Doppler shift can be seen as well as
-many curves which represent interference fringes, the Lloyd's mirror
-effect. The mirror effect is in this case solely due to the ground. Now,
-since my implementation supports reflections from buildings as well, the
-effect will also be obtained due to these reflections from facades,
-although far less pronounced.</p>
-<div class="figure align-center">
-<a class="reference external image-reference" href="/images/2013/11/mirror_effect.png"><img alt="" src="/images/2013/11/mirror_effect-300x226.png" /></a>
-<p class="caption">Spectrogram of a synthesized aircraft passage showing the Doppler effect and Lloyd's mirror effect. The x-axis shows time and y-axis frequency. The color indicates sound pressure.</p>
-</div>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/11/10/project-meeting-of-sonorus-in-ghent-belgium/" rel="bookmark" title="Permalink to Project meeting of SONORUS in Ghent, Belgium">Project meeting of SONORUS in Ghent, Belgium</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-11-10T22:04:00+01:00"> Sun 10 November 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Last week was the first winterschool of the <a class="reference external" href="http://www.fp7sonorus.eu/">SONORUS project</a>&nbsp;as well
-as a Network Meeting and this was also the first time for us, ESR's, to
-meet each other and all other partners involved in this project. SONORUS
-is an Initial Training Network under the FP7 People Programme in the
-field of Urban Sound Planning, aiming at improving the acoustic
-environment of our cities in a holistic approach. In the project, 14
-young researchers (ESR's) work together on improving the soundscape of
-several cities in conjunction with their individual research projects.</p>
-<p>On Sunday evening prior to the winterschool there was a dinner for all
-those involved in the project, a very pleasant way to get to know each
-other. On Monday morning the Network Meeting began. An introduction to
-the project was given by the project leader and the research partners
-also presented themselves. Juergen Bauer of WIT then gave a talk named
-'Urban sound planning in the bigger context' stressing the importance of
-Urban Sound Planning. That afternoon the ESR's presented themselves as
-well as the involved city partners showing their cases.</p>
-<p>Tuesday morning the winterschool truly began. From then on every day was
-packed with lectures and workshops. The winterschool dealt with urban
-sound propagation and therefore sound propagation and modelling
-technique were extensively discussed along with standard methods and the
-European Noise Directive. The winterschool was concluded on Friday with
-a small exam.</p>
-<p>A topic that briefly passed by during a presentation of Timothy van
-Renterghem seemed to have impressed me quite a bit. He briefly showed
-the results from his research on the importance of rooftops for road
-traffic noise shielding. Basically, the shape of a rooftop can have
-great influence on how much sound is diffracted and thus how quiet a
-courtyard could potentially become.</p>
-<div class="figure align-center">
-<a class="reference external image-reference" href="/images/2013/11/rooftops.png"><img alt="" src="/images/2013/11/rooftops-300x230.png" /></a>
-<p class="caption">The importance of roof shape for road traffic
-noise shielding in the urban environment environment, T. Van Renterghem
-et al., Journal of Sound and Vibration, 2010.[/caption]</p>
-</div>
-<p>The Tuesday afternoon we had an initial look together at the test cases
-and groups were formed to see how they would tackle the problems that
-were presented. Each group discussed a single test site and concluded
-the session with a presentation about their initial impressions of the
-challenge at hand.</p>
-<p>Right from the start of this week project members started discussing
-their work and how they might cooperate. Thursday after the lectures I
-gave a short presentation on tools for collaboration resulting in a
-brief discussion on the topic. While we were all too tired to go into
-the details at the time my general impression was that the&nbsp;consensus&nbsp;was
-that we should definitely look deeper into these kind of tools.</p>
-<p>All in all I think this meeting was quite fruitful and I'm looking
-forward to the next time!</p>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/09/26/auralisation-of-aircraft-noise/" rel="bookmark" title="Permalink to Auralisation of aircraft noise">Auralisation of aircraft noise</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-09-26T22:59:00+02:00"> Thu 26 September 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Almost two months ago I started working at the Swiss research institute
-Empa in Dübendorf, Switzerland, as part of a European Seventh Framework
-project called <a class="reference external" href="http://www.fp7sonorus.eu/">Sonorus</a>. The project is about urban sound planning and
-my task is to develop an aircraft noise simulator. &nbsp;The first two months
-passed really fast. It's a great place to work, and the type of work
-really fits me. Obviously I began with reading a bit about the topic and
-thinking how I would tackle the issues at hand. But very soon I began
-with implementing the first bits and mainly prototyping what I think it
-should become.</p>
-<p>The idea is that I develop an aircraft noise simulator capable of
-simulating how an aircraft pass-by sounds at a stationary receiver while
-in an urban environment. This means effects like spherical spreading,
-Doppler shift and reflections at the ground and facades have to be
-included in the propagation model. But first it is important to obtain a
-good time-frequency representation of an aircraft, and obviously these
-depend on the make or type of the aircraft as well as the conditions.
-Finally, the aircraft noise has to be reproduced using for example an
-Ambisonics setup.</p>
-<p>Now, there are quite some challenges here and 'unknowns' to be solved .
-While I have a good idea of how I will build such a tool for
-auralisation, there are many details requiring attention. An example is
-how much does turbulence in the atmosphere influence the propagation?
-How to simulate decorrelation? How to reproduce correct over-head
-information? And quite some more questions that need answering the
-coming three years :-)</p>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/07/18/kungsleden/" rel="bookmark" title="Permalink to Kungsleden - From Abisko to Nikkaluokta">Kungsleden - From Abisko to Nikkaluokta</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-07-18T14:37:00+02:00"> Thu 18 July 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/admin.html">admin</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>Ever since I my first visit to Sweden I have been wanting to go to
-Lapland during summertime and trek along the Kungsleden from Abisko to
-Nikkaluokta. Last month I finally did it! While at times I got rather
-frustrated during the trek it was overall a great experience.</p>
-<p>Several days before Midsummer,&nbsp;after a 22 hour trainride departing from
-Gothenburg, I arrived in Abisko. And there, right next to the train
-platform, the trail begins. The first part of the trail through Abisko
-National Park is a bit like a highway, with many wide trails. The nature
-is already beautiful though, especially the &nbsp;river flowing from
-Abiskosjaure to Torneträsk. After about 10 kilometers I noticed
-something wasn't right with my left ankle. 'Damn it', I thought, 'not
-during this trail'. I continued, had a short break at
-Abiskosjaurestugan, and continued to Ratojaure, where I set up camp, and
-was joined by a single traveler from Belgium. And of course the sun
-never went down, ohhh that great Midsummer sun!</p>
-<p>The next morning we continued together to Alesjaurestugan, and from
-there on to Tjäkta. Unfortunately my ankle was hurting a lot, and so
-after unsuccessfully trying out some things I decided to continue on my
-sandals from Alesjaure and bound my shoes to my backpack. What a
-relieve, no pain at all! I definitely got some weird faces from people
-passing by me though!</p>
-<p>The following morning I woke to the sound of rain in rather high
-quantities. We decided to stay at our camp, and continue &nbsp;as soon as it
-would be dry again. Well, it wouldn't stop raining until the morning
-after when we had a perfectly clear blue sky! Nothing better than having
-the bright sun in your eyes when you open your tent :-) We decided to
-split up and continue solo again. The weather was great, and I continued
-in a high pace, passing Tjäkta pass and on my way to Sälka. The route
-between Tjäkta and Sälka was amazing!</p>
-<p>Early afternoon I arrived in Sälka, felt like I could walk a bit more,
-and decided to continue to Kebnekaise mountain station. I decided
-against going via Singi but instead to take a shortcut, which lead me to
-higher grounds. As soon as I was at the highest point I noticed a storm
-front building up in the valley I was about to descent into. Continuing
-to Kebnekaise was definitely no option, as the wind speed was increasing
-rapidly, and returning to lower grounds didn't appeal to me. So,
-instead, I decided to to pitch my tent at this plateau. Well, this was
-perhaps a terrible idea. The wind gusts were very strong, causing so
-much noise I couldn't sleep at all. Great Midsummer Eve! My plan was to
-move on early, but the wind was still strong in the morning, and it
-seemed to me it was too strong to pack my tent. Well, after some time I
-simply had to move on, so I packed the tent which obviously didn't go so
-fluently, and continued down into the valley towards Kebnekaise, at a
-certain point loosing the trail ending up in a big heap of mud.</p>
-<p>The mountain station is quite a bit different from the cabins or
-stugorna along the trail. While those are relatively small and simple
-the facilities at the mountain station are huge and the reception with
-restaurant is also very luxurious. Too luxurious, if you ask me. Having
-such facilities along a trail here in Lapland just doesn't feel right to
-me. The same I found of the facilities at Gjendesheim in Jotunheimen,
-Norway. Anyway, I basically wasted a day and a half at the mountain
-station, hoping a window would open for me to climb the mountain, even
-though I knew it would be a bad idea with the injury I was having.
-Except for going up during nighttime there was basically no sane
-possibility. So, slightly disappointed, I continued to Nikkaluokta,
-passing Ladtjojaure&nbsp;and LapDonalds. After some hours and some fierce
-battles with mosquitoes I arrived in Nikkaluokta where I spend the night
-in a cottage. Noon next day I took the bus to Kiruna and a full day
-later I arrived back in Gothenburg. Home sweet home :-)</p>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/06/29/final-weeks-in-india/" rel="bookmark" title="Permalink to Final weeks in India">Final weeks in India</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-06-29T13:42:00+02:00"> Sat 29 June 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>It's four weeks now that I am back in Sweden. June the 2nd I arrived
-back home in Gothenburg. It was quite a change, for sure! But it was
-definitely good. I really enjoyed my 4.5 months India experience, but
-after some time I was starting to feel like being home again. Let's give
-a short summary of the last month or so in India.</p>
-<p>I spend almost a month in McLeodGanj, a town a liked and disliked. There
-are so many foreign tourists, that you don't have the feeling you're in
-India. And this is both a positive and negative thing I found. Anyway,
-during my stay there I met again several travelers from before which was
-very nice! It's good to see some familiar faces once in a while. After
-McLeodGanj - including a night at the Snowline Cafe - I headed to
-Srinagar, Kashmir. It was quite a long bus journey; first a 5 hour ride
-from Dharamsala to Jammu, and after that a night bus from Jammu to
-Srinagar. While the ride was supposed to take about 12 hours it took in
-fact 16 due to two punctures, and a driver deciding to sleep it off
-instead. Unfortunately for him the police didn't agree with him and put
-him to work. The ride turned out to be really nice, with amazing views
-and nice discussions.</p>
-<p>In Srinagar I spend only a couple of days. Somehow the city didn't
-appeal to me. I think it was because it is way too touristic without
-offering me any reasons to stay. So, after Srinagar I took the amazing
-two-day bus ride to Leh, Ladakh! Amazing views, and nice dangerous small
-roads. Awesome road.</p>
-<p>Ladakh is beautiful. Certain locations are simply stunning. It is a pity
-though that all the valleys are full of military bases. This does
-destroy some of the immersion. It's also unfortunate that Leh has been
-growing so much; big concrete hotels are appearing everywhere and they
-simply don't fit in. Since I had quite some work left on my thesis I
-wasn't able to explore much of Ladakh but I will definitely come back
-here for trekking, or maybe some teaching? We'll see!</p>
- </div><!-- /.entry-content -->
-        </article></li>
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="/2013/04/25/holi-and-mcleod-ganj/" rel="bookmark" title="Permalink to Holi and McLeod Ganj">Holi and McLeod Ganj</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="2013-04-25T12:46:00+02:00"> Thu 25 April 2013 </time>
-                    <address class="vcard author">By
-                        <a class="url fn" href="/author/frederik-rietdijk.html">Frederik Rietdijk</a>
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> <p>In my previous post I wrote how few foreign tourists could be found in
-Shimla. Well, I've spend some weeks now here in McLeod Ganj, and I &nbsp;can
-tell you it's quite the opposite. You really have to look hard to find
-Indian people around here! Okay, they're still here, but seem to be a
-minority compared to the huge amounts of Tibetan people and foreign
-tourists.</p>
-<p>Anyhow, let's continue where I finished last time. I spend quite some
-time in Shimla, and during my stay I met again some travelers I met
-before in Udaipur and Jodhpur, which was quite nice. Unlike me they have
-been to many more places since we split ways so it was very nice to
-catch up and hear their stories of their travels. It was actually the
-last day for me in Shimla when I met two Canadians I had met before in
-Jodhpur. While they decided to spend Holi in Shimla I went back to
-Delhi.</p>
-<p>So....Delhi and Holi. Quite some people are afraid of this combination,
-but I must say there is no reason at all. While it can get chaotic
-(drunk rickshaw drivers doing tricks on their rickshaws, waterballoons
-coming at you from all directions), it is a VERY nice and colourful day!
-I had a great day and stay there and look forward to a next Holi :-)</p>
-<p>Some days after Holi I took the bus again, and this time to Dharamsala
-or more precise, McLeod Ganj. McLeod Ganj is the area where the Tibetan
-government in exile can be found and as such many Tibetan refugees live
-here. Many foreigners could also be found due to popularity of the Dalai
-Lama and Tibetan&nbsp;Buddhism. While I am one of the foreigners here I must
-say I am definitely not here for this reason. Most foreigners that I met
-here in McLeod Ganj come to learn about that culture, for meditation or
-to smoke.</p>
-<p>Again I met some travelers from before here, which was nice to spend
-some time with again. By now though they've all left, and so I feel it's
-time to move on again as well. As I've been working real hard on my
-thesis again for a while (except last week due to a stupid injury) I
-feel like having a short break again. Therefore my plan is to go to
-Dalhousie for a dat or two, departing at the end of the weekend. After
-that I continue my plans by heading to Srinagar. I haven't figured out
-yet whether I go there via Udhampur or Jammu. While I don't want to go
-via the latter I am told it is easiest to go from there. Hmmm, I'll have
-to think about it. Maybe when I go up Triund again and spend the night
-at the Snowline Cafe?</p>
- </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-<p class="paginator">
-        <a href="/category/blog.html">&#8647;</a>
-        <a href="/category/blog3.html">&laquo;</a>
-    Page 4 / 5
-        <a href="/category/blog5.html">&raquo;</a>
-        <a href="/category/blog5.html">&#8649;</a>
-</p>
-</section><!-- /#content -->
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="/2022/09/05/parameterized-and-distributed-calculations-using-the-nix-package-manager/">Parameterized and distributed calculations using the Nix package manager</a>
+      </li>
+      <li class="post">
+          <a href="/2018/03/11/finished-phd/">Finished PhD</a>
+      </li>
+      <li class="post">
+          <a href="/2016/09/17/urban-sound-planning-symposium/">Urban Sound Planning Symposium</a>
+      </li>
+      <li class="post">
+          <a href="/2016/04/07/research-visit-to-nasa-langley-research-center/">Research visit to NASA Langley Research Center</a>
+      </li>
+      <li class="post">
+          <a href="/2016/04/06/sonorus-update/">SONORUS update</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="/category/blog.html">Blog</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="/tag/nix.html">nix</a>,    <a href="/tag/acoustics.html">acoustics</a>,    <a href="/tag/sonorus.html">sonorus</a>,    <a href="/tag/aircraft.html">aircraft</a>,    <a href="/tag/urban-planning.html">urban planning</a>,    <a href="/tag/work.html">work</a>,    <a href="/tag/python.html">python</a>,    <a href="/tag/hiking.html">hiking</a>,    <a href="/tag/holiday.html">holiday</a>,    <a href="/tag/sweden.html">sweden</a>,    <a href="/tag/india.html">india</a>,    <a href="/tag/study.html">study</a>,    <a href="/tag/norway.html">norway</a>,    <a href="/tag/school.html">school</a>,    <a href="/tag/music.html">music</a>  </section>
+
+
+
+  <section>
+    <h1>GitHub Repos</h1>
+    <ul id="gh_repos">
+      <li class="loading">Status updating...</li>
+    </ul>
+    <script type="text/javascript">
+      $.domReady(function(){
+          if (!window.jXHR){
+              var jxhr = document.createElement('script');
+              jxhr.type = 'text/javascript';
+              jxhr.src = '/theme/js/jXHR.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(jxhr, s);
+          }
+
+          github.showRepos({
+              user: 'FRidh',
+              count: 5,
+              skip_forks: false,
+              target: '#gh_repos'
+          });
+      });
+    </script>
+    <script src="/theme/js/github.js" type="text/javascript"> </script>
+  </section>
+
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2009&ndash;2022  Frederik Rietdijk &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="/theme/js/modernizr-2.0.js"></script>
+  <script src="/theme/js/ender.js"></script>
+  <script src="/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'fridhnl';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
 </body>
 </html>
